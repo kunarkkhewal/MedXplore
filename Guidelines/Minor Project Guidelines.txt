@@ -1,0 +1,48 @@
+Tables:-
+	1. user_mst
+	2. role_mst
+	3. right_mst
+	4. user_role_mapping
+	5. role_right_mapping
+	6. med_mst
+	7. med_category_mst
+	8. store_mst
+	9. common_gene_para
+
+Screens:-
+	1. Face
+	2. SignUp/SignIn
+	3. Dashboard splash
+	4. Dashboard	
+		- *RIGHTS*
+		- About Us
+		- Contact Us
+	5. SignOut
+
+Admin rights:-
+	- Add Medicine			addMed.jsp
+	- Remove Medicine		delMed.jsp
+	- Add Store			addStore.jsp
+	- Remove Store			delStore.jsp
+	- Update Contact Us		updateContactUs.jsp
+
+User rights:-
+	- Search Medicine		searchMed.jsp
+	- Update Profile		updateProfile.jsp
+	- MedBook			medBook.jsp
+
+
+- 4 Brands:	*Cipla
+		*GlaxoSmithKline
+		*Abbott Healthcare
+		*Micro Labs Ltd.
+
+- 4 Medicine categories:	*Fever
+				*Cold & Flu
+				*Diabetes
+				*Digestion
+
+- 16 Medicines 
+- 10 Sectors
+- 5 Shops/Sector
+

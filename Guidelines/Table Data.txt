@@ -1,0 +1,58 @@
+user_mst:	
+	- uid
+	- userid
+	- emailid
+	- pwd
+	- status
+	- firstname
+	- lastname
+	- address
+	- contactno
+
+role_mst:
+	- roleid
+	- rolename
+	- descr
+	- status
+
+right_mst:
+	- rightid
+	- rightname
+	- descr
+	- screen
+	- status
+
+user_role_mapping:
+	- mapid
+	- uid
+	- roleid
+	- status
+ 
+role_right_mapping:
+	- mapid
+	- roleid
+	- rightid
+	- status
+
+med_mst:
+	- medid
+	- medname
+	- categoryid
+
+med_category_mst:
+	- id
+	- descr
+
+store_mst:
+	- sid
+	- sname
+	- saddress
+	- scontactno
+	- status
+
+common_gene_para:
+	- id
+	- name
+	- descr
+	- key
+	- status
