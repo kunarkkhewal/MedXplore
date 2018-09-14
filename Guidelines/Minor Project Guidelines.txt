@@ -25,6 +25,7 @@ Admin rights:-
 	- Add Store			addStore.jsp
 	- Remove Store			delStore.jsp
 	- Update Contact Us		updateContactUs.jsp
+	- Add Admin			addAdmin.jsp
 
 User rights:-
 	- Search Medicine		searchMed.jsp
