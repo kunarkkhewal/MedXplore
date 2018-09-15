@@ -28,11 +28,11 @@ INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Add Medicine', 'Add scre
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Delete Medicine', 'Delete screen for medicine', 'delMed.jsp');
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Add Store', 'Add screen for store', 'addStore.jsp');
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Delete Store', 'Delete screen for store', 'delStore.jsp');
-INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Update Contact Us', 'Update screen for Contact Us section', 'updateContactUs.jsp');
+INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Update Profile', 'Update screen for admin profile', 'updateProfileAdmin.jsp');
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Add Admin', 'Add screen for Admin', 'addAdmin.jsp');
 
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Search Medicine', 'Search screen for medicine', 'searchMed.jsp');
-INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Update Profile', 'Update screen for profile', 'updateProfile.jsp');
+INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('Update Profile', 'Update screen for user profile', 'updateProfileUser.jsp');
 INSERT INTO RIGHT_MST(RIGHTNAME, DESCR, SCREEN) VALUES('MedBook', 'display screen for MedBook', 'medBook.jsp');
 
 INSERT INTO ROLE_RIGHT_MAPPING(ROLEID,RIGHTID) VALUES(1,1);
