@@ -5,9 +5,10 @@ Tables:-
 	4. user_role_mapping
 	5. role_right_mapping
 	6. med_mst
-	7. med_category_mst
-	8. store_mst
-	9. common_gene_para
+	7. brand_mst
+	8. med_category_mst
+	9. store_mst
+	10. common_gene_para
 
 Screens:-
 	1. Face

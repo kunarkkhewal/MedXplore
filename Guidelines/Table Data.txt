@@ -38,6 +38,13 @@ med_mst:
 	- medid
 	- medname
 	- categoryid
+	- brandid
+	- packsize
+	- price
+
+brand_mst:
+	- brandid
+	- brandname
 
 med_category_mst:
 	- id
