@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <div class="navigation">
+            <div class="nav-up">
+                <div id="logo" class="left">
+                    <a href="index.html"> <img src="C:\Users\hp\Desktop\Medxplore\MEDXPLORE\FrontEnd\assets\images\mx.png" alt=""></a>
+                    
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+
+        <div class="navigation">
+            <div class="nav-down">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="mentor.html">Mentor</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <h1>Register</h1>
+
+    <form id="registration">
+        <div>
+            <label for="fname">First Name: </label>
+            <input id="fname" type="text" name="FirstName" placeholder="FirstName" required>
+
+            <label for="lname">Last Name: </label>
+            <input id="lname" type="text" name="LastName" placeholder="LastName" required>
+            <br>
+            <label for="contact">Contact: </label>
+            <input id="contact" type="number" name="Contact" placeholder="Contact" required pattern=".{10}">
+            <br>
+            <label for="address">Address: </label>
+            <input id="address" type="textarea" name="Address">
+        </div>
+        
+        <div>
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="Email">
+            <br>
+            <label for="password">Password: </label>
+            <input id="password" type="password" name="Password"  pattern=".{5,10}" required title="5 to 10 chars only">
+            <br>
+            <label for="cnfrmpassword">Confirm Password:</label>
+            <input id="cnfrmpassword" type="password" name="cnfrmpassword" required>
+        </div>
+               
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
