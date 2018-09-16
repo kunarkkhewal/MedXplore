@@ -1,0 +1,71 @@
+2018-09-15 19:16:11 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-15 19:16:11 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-15 19:16:11 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-09-15 19:16:12 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-09-15 19:16:12 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-09-15 19:16:12 DEBUG UserDAO:98 - Returning db-loaded UserDTO object: null
+2018-09-15 19:16:12 DEBUG UserDAO:111 - Resources closed for LOGIN in UserDAO.
+2018-09-15 19:16:12 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: null
+2018-09-15 19:24:55 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-15 19:24:55 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-15 19:24:55 DEBUG UserDAO:63 - Inside UserDAO doLogin() method.
+2018-09-15 19:24:55 DEBUG UserDAO:73 - Connection created for LOGIN inside UserDAO.
+2018-09-15 19:24:55 DEBUG UserDAO:78 - LOGIN Query executed.
+2018-09-15 19:24:55 DEBUG UserDAO:82 - UserDTO Object created in loop.
+2018-09-15 19:24:55 DEBUG UserDAO:84 - UserDTO Object setUserId().
+2018-09-15 19:24:55 DEBUG UserDAO:86 - UserDTO Object setRoleName().
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:92 - UserDTO Object setRightName().
+2018-09-15 19:24:55 DEBUG UserDAO:94 - UserDTO Object setScreenName().
+2018-09-15 19:24:55 DEBUG UserDAO:96 - UserDTO Object Right added to AList<>.
+2018-09-15 19:24:55 DEBUG UserDAO:98 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@305ed5a1
+2018-09-15 19:24:55 DEBUG UserDAO:111 - Resources closed for LOGIN in UserDAO.
+2018-09-15 19:24:55 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@305ed5a1
+2018-09-15 20:47:51 DEBUG RegisterServlet:28 - Inside RegisterServlet doPost() method.
+2018-09-15 20:47:51 DEBUG RegisterServlet:38 - RegisterServlet doPost() received credentials.
+2018-09-15 20:47:51 DEBUG UserDAO:24 - Inside UserDAO doRegister() method.
+2018-09-15 20:47:51 DEBUG UserDAO:31 - Connection created for REGISTER inside UserDAO..
+2018-09-15 20:47:51 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-09-15 20:47:51 DEBUG UserDAO:70 - Resources closed for REGISTER in UserDAO.
+2018-09-15 20:51:47 DEBUG RegisterServlet:28 - Inside RegisterServlet doPost() method.
+2018-09-15 20:51:47 DEBUG RegisterServlet:38 - RegisterServlet doPost() received credentials.
+2018-09-15 20:51:47 DEBUG UserDAO:24 - Inside UserDAO doRegister() method.
+2018-09-15 20:51:47 DEBUG UserDAO:31 - Connection created for REGISTER inside UserDAO..
+2018-09-15 20:51:47 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-09-15 20:51:47 DEBUG UserDAO:70 - Resources closed for REGISTER in UserDAO.
+2018-09-15 20:57:12 DEBUG RegisterServlet:28 - Inside RegisterServlet doPost() method.
+2018-09-15 20:57:12 DEBUG RegisterServlet:38 - RegisterServlet doPost() received credentials.
+2018-09-15 20:57:12 DEBUG UserDAO:24 - Inside UserDAO doRegister() method.
+2018-09-15 20:57:12 DEBUG UserDAO:31 - Connection created for REGISTER inside UserDAO..
+2018-09-15 20:57:12 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-09-15 20:57:12 DEBUG UserDAO:70 - Resources closed for REGISTER in UserDAO.
+2018-09-15 21:04:14 DEBUG RegisterServlet:28 - Inside RegisterServlet doPost() method.
+2018-09-15 21:04:14 DEBUG RegisterServlet:38 - RegisterServlet doPost() received credentials.
+2018-09-15 21:04:14 DEBUG UserDAO:24 - Inside UserDAO doRegister() method.
+2018-09-15 21:04:14 DEBUG UserDAO:31 - Connection created for REGISTER inside UserDAO..
+2018-09-15 21:04:14 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-09-15 21:04:14 DEBUG UserDAO:70 - Resources closed for REGISTER in UserDAO.
+2018-09-15 21:19:29 DEBUG RegisterServlet:28 - Inside RegisterServlet doPost() method.
+2018-09-15 21:19:29 DEBUG RegisterServlet:38 - RegisterServlet doPost() received credentials.
+2018-09-15 21:19:29 DEBUG UserDAO:24 - Inside UserDAO doRegister() method.
+2018-09-15 21:19:30 DEBUG UserDAO:31 - Connection created for REGISTER inside UserDAO..
+2018-09-15 21:19:30 DEBUG UserDAO:42 - Record Added. Registration Successful.
+2018-09-15 21:19:30 DEBUG CommonDAO:47 - uid from ResultSet: 8
+2018-09-15 21:19:30 DEBUG CommonDAO:78 - roleid from ResultSet: 2
+2018-09-15 21:19:30 DEBUG UserDAO:54 - UID fetched: 8	ROLEID fetched: 2
+2018-09-15 21:19:30 DEBUG UserDAO:60 - User_Role_Mapping SUCCESS.
+2018-09-15 21:19:30 DEBUG UserDAO:79 - Resources closed for REGISTER in UserDAO.
