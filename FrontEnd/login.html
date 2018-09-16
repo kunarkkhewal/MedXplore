@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\login.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="navigation">
             <div class="nav-up">
                 <div id="logo" class="left">
-                    <a href="index.html"> <img src="C:\Users\hp\Desktop\Medxplore\MEDXPLORE\FrontEnd\assets\images\mx.png" alt=""></a>
+                    <a href="index.html"> <img src="assets\images\mx.png" alt=""></a>
                 </div>
                 <div class="right">
                     <ul>
@@ -41,17 +41,18 @@
 
     <form id="login">
         <div>
-            <label for="email"><b>Email Id: </b></label>
-            <input id="email" type="text" placeholder="Enter Email Id" required>
+            <label for="userid">UserID: </label>
+            <input id="userid" type="text" name="userid" placeholder="Enter UserID" required>
                 
             <br>
 
             <label for="password"><b>Password: </b></label>
-            <input id="password" type="password" placeholder="Enter Password" required pattern=".{5,10}">
+            <input id="password" type="password" name="pwd" placeholder="Enter Password" required pattern=".{5,10}">
         
             <br>
 
             <button type="submit">Login</button>
+            <button type="reset">Reset</button>
           
         </div>
       

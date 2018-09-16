@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="navigation">
             <div class="nav-up">
                 <div id="logo" class="left">
-                    <a href="index.html"> <img src="C:\Users\hp\Desktop\Medxplore\MEDXPLORE\FrontEnd\assets\images\mx.png" alt=""></a>
+                    <a href="index.html"> <img src="assets\images\mx.png" alt=""></a>
                     
                 </div>
                 <div class="right">
@@ -45,31 +45,35 @@
 
     <form id="registration">
         <div>
-            <label for="fname">First Name: </label>
-            <input id="fname" type="text" name="FirstName" placeholder="FirstName" required>
-
-            <label for="lname">Last Name: </label>
-            <input id="lname" type="text" name="LastName" placeholder="LastName" required>
+            <label for="userid">UserID: </label>
+            <input id="userid" type="text" name="userid" placeholder="UserID">
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="emailid" placeholder="Email">
             <br>
-            <label for="contact">Contact: </label>
-            <input id="contact" type="number" name="Contact" placeholder="Contact" required pattern=".{10}">
+            <label for="password">Password: </label>
+            <input id="password" type="password" name="pwd" placeholder="Password"  pattern=".{5,10}" required title="5 to 10 chars only">
             <br>
-            <label for="address">Address: </label>
-            <input id="address" type="textarea" name="Address">
+            <label for="cnfrmpassword">Confirm Password:</label>
+            <input id="cnfrmpassword" type="password" name="cpwd" placeholder="Confirm Password" required>
         </div>
         
         <div>
-            <label for="email">Email: </label>
-            <input id="email" type="email" name="Email">
+            <label for="fname">First Name: </label>
+            <input id="fname" type="text" name="firstname" placeholder="FirstName" required>
+
+            <label for="lname">Last Name: </label>
+            <input id="lname" type="text" name="lastname" placeholder="LastName" required>
             <br>
-            <label for="password">Password: </label>
-            <input id="password" type="password" name="Password"  pattern=".{5,10}" required title="5 to 10 chars only">
+            <label for="address">Address: </label>
+            <input id="address" type="textarea" name="address" placeholder="Address">
             <br>
-            <label for="cnfrmpassword">Confirm Password:</label>
-            <input id="cnfrmpassword" type="password" name="cnfrmpassword" required>
+            <label for="contact">Contact No: </label>
+            <input id="contact" type="text" name="contactno" placeholder="Contact No" required pattern=".{10}">
         </div>
+        
                
-        <button>Submit</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
     </form>
 
 </body>
