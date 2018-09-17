@@ -1,16 +1,21 @@
+<%@ page language="java" contentType="text/html"; charset="utf-8"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    isErrorPage="false" trimDirectiveWhitespaces="true"
+%>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentor</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
     <script src="main.js"></script>
 </head>
 <body>
 
-    <header>
+   <header>
         <div class="navigation">
             <div class="nav-up">
                 <div id="logo" class="left">
@@ -39,11 +44,10 @@
         </div>
     </header>
 
-
-    <h1>MedXplore</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis perspiciatis 
-        nihil quas sint laudantium doloribus alias quos provident cupiditate voluptatum 
-        quisquam, enim ducimus sequi dolorum ratione distinctio molestias illo voluptatibus.
-    </p>
+    <h1>Mentor</h1>
+    <div>
+        <h2>Prof. C.M. Sharma</h2>
+        <h2>Department of Computer Science</h2>
+    </div>
 </body>
 </html>

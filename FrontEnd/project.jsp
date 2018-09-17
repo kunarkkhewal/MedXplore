@@ -1,15 +1,19 @@
+<%@ page language="java" contentType="text/html"; charset="utf-8"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    isErrorPage="false" trimDirectiveWhitespaces="true"
+%>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Developers</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
     <script src="main.js"></script>
 </head>
 <body>
-
 
     <header>
         <div class="navigation">
@@ -40,28 +44,11 @@
         </div>
     </header>
 
-    <h1>Developers</h1>
 
-    <div id="Kunark" class="left">
-        <h1>Kunark Khewal</h1>
-        <h2>Aalsi Insaan</h2>
-        <h2>IT-4th Year</h2>
-        <h2>01520803115</h2>
-    </div>
-
-    <div id="Akshita" class="left">
-        <h1>Akshita Aggarwal</h1>
-        <h2>FrontEnd Developer</h2>
-        <h2>IT-4th Year</h2>
-        <h2>00220803115</h2>
-    </div>
-
-    <div id="Rohit" class="right">
-        <h1>Rohit Meghwal</h1>
-        <h2>BackEnd Developer</h2>
-        <h2>IT-4th Year</h2>
-        <h2>02720803115</h2>
-    </div>
-
+    <h1>MedXplore</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis perspiciatis 
+        nihil quas sint laudantium doloribus alias quos provident cupiditate voluptatum 
+        quisquam, enim ducimus sequi dolorum ratione distinctio molestias illo voluptatibus.
+    </p>
 </body>
 </html>

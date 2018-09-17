@@ -1,3 +1,8 @@
+<%@ page language="java" contentType="text/html"; charset="utf-8"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    isErrorPage="false" trimDirectiveWhitespaces="true"
+%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

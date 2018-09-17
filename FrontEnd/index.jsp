@@ -1,16 +1,20 @@
+<%@ page language="java" contentType="text/html"; charset="utf-8"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    isErrorPage="false" trimDirectiveWhitespaces="true"
+%>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
     <script src="main.js"></script>
 </head>
 <body>
-
-
     <header>
         <div class="navigation">
             <div class="nav-up">
@@ -39,28 +43,5 @@
             </div>
         </div>
     </header>
-
-
-
-    <h1>Contact Us</h1>
-
-    <div class="left">
-        <h2>Kunark Khewal</h2>
-        <h2>Mobile: 9818371337</h2>
-        <h2>Email: kunark.khewal88@gmail.com </h2>
-    </div>
-
-    <div class="left">
-        <h2>Akshita Aggarwal</h2>
-        <h2>Mobile: 9811454020</h2>
-        <h2>Email: akshagg3@gmail.com </h2>
-    </div>
-
-    <div class="right">
-        <h2>Rohit Meghwal</h2>
-        <h2>Mobile: 9560394272</h2>
-        <h2>Email: yuvrohit1996@gmail.com </h2>
-    </div>
-
 </body>
 </html>
