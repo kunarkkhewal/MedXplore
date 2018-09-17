@@ -20,13 +20,13 @@
         <div class="navigation">
             <div class="nav-up">
                 <div id="logo" class="left">
-                    <a href="index.html"> <img src="assets\images\mx.png" alt=""></a>
+                    <a href="index.jsp"> <img src="assets\images\mx.png" alt=""></a>
                     
                 </div>
                 <div class="right">
                     <ul>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="login.jsp">Login</a></li>
+                        <li><a href="registration.jsp">Registration</a></li>
                     </ul>
                 </div>
             </div> 
@@ -35,11 +35,11 @@
         <div class="navigation">
             <div class="nav-down">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="mentor.html">Mentor</a></li>
-                    <li><a href="developers.html">Developers</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="home.jsp">Home</a></li>
+                    <li><a href="mentor.jsp">Mentor</a></li>
+                    <li><a href="developers.jsp">Developers</a></li>
+                    <li><a href="project.jsp">Project</a></li>
+                    <li><a href="contact.jsp">Contact Us</a></li>
                 </ul>
             </div>
         </div>
