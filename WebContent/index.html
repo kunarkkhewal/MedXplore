@@ -1,28 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <script src="main.js"></script>
 </head>
 <body>
-    <h1>LOGIN</h1>
-    <form action="http://localhost:8080/MedXplore/login" method="POST">
-        <table>
-            <tr>
-                <td>UserID:</td>
-                <td><input type="text" name="userid"></td>
-            </tr>
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="pwd"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Submit"></td>
-                <td><input type="reset" value="Reset"></td> 
-            </tr>
-        </table>
-    </form>
+    <header>
+        <div class="navigation">
+            <div class="nav-up">
+                <div id="logo" class="left">
+                    <a href="index.html"> <img src="assets\images\mx.png" alt=""></a>
+                    
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+
+        <div class="navigation">
+            <div class="nav-down">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="mentor.html">Mentor</a></li>
+                    <li><a href="developers.html">Developers</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 </body>
 </html>

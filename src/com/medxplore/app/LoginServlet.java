@@ -50,14 +50,18 @@ public class LoginServlet extends HttpServlet {
 			UserDTO userDTO = userDAO.doLogin(userid,pwd);
 			logger.debug("LoginServlet received db-loaded UserDTO Object: " + userDTO);
 			if(userDTO != null) {
-				/*HttpSession session = request.getSession(true);
-				out.println("Session ID: " + session.getId());
-				out.println("Session Created at: " + session.getCreationTime());
-			*/
-				out.println("Logged in.");
+				HttpSession session = request.getSession(true);
+				logger.debug("HttpSession created.");
+				logger.debug("Session ID: " + session.getId());
+				logger.debug("Session Created at: " + session.getCreationTime());
+				session.setAttribute("userid", userDTO.getUserid());
+				session.setAttribute("userdata", userDTO);
+				response.sendRedirect("Dashboard.jsp");
+			
 			}
 			else {
-				out.println("Error in Login.");
+				logger.debug("Error in Login.");
+				response.sendRedirect("LoginError.jsp");
 			}
 		}
 		catch (ClassNotFoundException e) {
