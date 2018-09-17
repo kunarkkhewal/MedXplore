@@ -8,9 +8,6 @@
 </head>
 <body>
 <h1>Something Went Wrong, Please try After Sometime...</h1>
-<%=exception %>
-<%
-exception.printStackTrace();
-%>
+
 </body>
 </html>

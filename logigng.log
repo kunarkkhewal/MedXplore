@@ -242,3 +242,85 @@
 2018-09-17 21:24:10 DEBUG LoginServlet:54 - HttpSession created.
 2018-09-17 21:24:10 DEBUG LoginServlet:55 - Session ID: 9A47E7E987FF5F984FCCA2BA5AB16CDE
 2018-09-17 21:24:10 DEBUG LoginServlet:56 - Session Created at: 1537199203968
+2018-09-17 22:11:05 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-17 22:11:05 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-17 22:11:05 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-09-17 22:11:05 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-09-17 22:11:05 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-09-17 22:11:05 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: null
+2018-09-17 22:11:05 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-09-17 22:11:05 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: null
+2018-09-17 22:11:05 DEBUG LoginServlet:63 - Error in Login.
+2018-09-17 22:11:13 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-17 22:11:13 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-17 22:11:13 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-09-17 22:11:14 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-09-17 22:11:14 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-09-17 22:11:14 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: null
+2018-09-17 22:11:14 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-09-17 22:11:14 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: null
+2018-09-17 22:11:14 DEBUG LoginServlet:63 - Error in Login.
+2018-09-17 22:11:22 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-17 22:11:22 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-17 22:11:22 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-09-17 22:11:22 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-09-17 22:11:22 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-09-17 22:11:22 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-09-17 22:11:22 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-09-17 22:11:22 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:11:22 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:11:22 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:11:22 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@2087f973
+2018-09-17 22:11:22 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-09-17 22:11:22 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@2087f973
+2018-09-17 22:11:22 DEBUG LoginServlet:54 - HttpSession created.
+2018-09-17 22:11:22 DEBUG LoginServlet:55 - Session ID: 08E701C6F3258BB7DAC79EA4187D6227
+2018-09-17 22:11:22 DEBUG LoginServlet:56 - Session Created at: 1537202443925
+2018-09-17 22:31:00 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-09-17 22:31:00 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-09-17 22:31:00 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-09-17 22:31:01 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-09-17 22:31:01 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-09-17 22:31:01 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-09-17 22:31:01 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-09-17 22:31:01 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-09-17 22:31:01 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-09-17 22:31:01 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-09-17 22:31:01 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@1e20dfce
+2018-09-17 22:31:01 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-09-17 22:31:01 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@1e20dfce
+2018-09-17 22:31:01 DEBUG LoginServlet:54 - HttpSession created.
+2018-09-17 22:31:01 DEBUG LoginServlet:55 - Session ID: E2C14C894A4E0CA5DF4F880EC5AE737C
+2018-09-17 22:31:01 DEBUG LoginServlet:56 - Session Created at: 1537203661335
