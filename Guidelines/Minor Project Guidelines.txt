@@ -34,17 +34,19 @@ User rights:-
 	- MedBook			medBook.jsp
 
 
-- 4 Brands:	*Cipla
-		*GlaxoSmithKline
-		*Abbott Healthcare
-		*Micro Labs Ltd.
+-Brands:	*Cipla Ltd
+		*GlaxoSmithKline Pharamaceuticals Limited
+		*Abbott Healthcare Pvt Ltd
+		*Sun Pharmaceutical Industries Ltd
+		*Sanofi India Ltd
+		*Micro Labs Ltd
 
-- 4 Medicine categories:	*Fever
-				*Cold & Flu
+-Medicine categories:		*Fever
+				*Pain
 				*Diabetes
-				*Digestion
+				*Bacterial Infection
 
-- 16 Medicines 
+
 - 10 Sectors
 - 5 Shops/Sector
 
