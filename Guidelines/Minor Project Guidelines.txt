@@ -34,19 +34,19 @@ User rights:-
 	- MedBook			medBook.jsp
 
 
--Brands:	*Cipla Ltd
+-Brands:	*Abbott Healthcare Pvt Ltd
+		*Cipla Ltd
 		*GlaxoSmithKline Pharamaceuticals Limited
-		*Abbott Healthcare Pvt Ltd
-		*Sun Pharmaceutical Industries Ltd
-		*Sanofi India Ltd
 		*Micro Labs Ltd
+		*Sanofi India Ltd
+		*Sun Pharmaceutical Industries Ltd
 
--Medicine categories:		*Fever
+-Medicine categories:		*Diabetes
+				*Fever
 				*Pain
-				*Diabetes
 				*Bacterial Infection
 
 
-- 10 Sectors
+- 9 Sectors: Sector-7,8,9,11,13,15,16,17,18
 - 5 Shops/Sector
 

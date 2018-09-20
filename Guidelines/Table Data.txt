@@ -39,6 +39,7 @@ med_mst:
 	- medname
 	- categoryid
 	- brandid
+	- salt
 	- packsize
 	- price
 
@@ -47,7 +48,7 @@ brand_mst:
 	- brandname
 
 med_category_mst:
-	- id
+	- categoryid
 	- descr
 
 store_mst:
@@ -58,7 +59,7 @@ store_mst:
 	- status
 
 common_gene_para:
-	- id
+	- comgenid
 	- name
 	- descr
 	- key

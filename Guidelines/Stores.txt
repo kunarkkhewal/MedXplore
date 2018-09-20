@@ -1,0 +1,116 @@
+Sector-7:
+	- One Stop Pharmacy 
+		Shop No-1 & 2, Plot No-240, D-14, Opp. Metro Pillar 412, Sector-7
+		01145700103
+	- Apollo Pharmacy
+		Shop No-32, Maharaja Agarsen Marg, Sector-7
+		01145610501
+	- Narula Medicos
+		C-7/114, Sector-7
+		09810474403
+	- Om Medicos
+		D-12/240, Sector-7
+		09310006010
+
+Sector-8:
+	- Krishna Medicos
+		Shop No-14, CSC-2, DDA Market, Sector-8
+		09899552188
+	- Bhatia Medicos
+		E-15/158, Sector-8
+		09811993990
+	- Usha Pharmacy
+		Shop No-11, Balaji Plaza Complex, Sector-8
+		01127946837
+Sector-9:
+	- Aggarwal Medicos
+		Shop No-5, DDA Market, Rajapur, Sector-9
+		01127860156
+	- Prateek Medicos
+		Shop No-34, CSC-2, DDA Market, Sector-9
+		09999417999
+	- Jai Shri Ram Medicos
+		Shop No-36, Centre Shopping Complex, Park Plaza Market, Sector-9
+		01127567840
+	- 
+
+Sector-11:
+	- Sanyog Pharmacy
+		F-5, Nr. Veera Devi Charitable hospital, Sector-11
+		01142058335
+	- Mittal Pharmacy
+		B-8/1, Sector-11
+		09716349296
+	- Anvie Pharmacy
+		G-5/16, Sector-11
+		01142686644
+	- Metro Medicos
+		G-5/26, Sector-11
+		01147596060
+
+Sector-13:
+	- Apollo Pharmacy
+		Shop No-18, CSC-2, DDA Market, Sector-13
+		01127550848
+	- Medi-Shoppe
+		Shop No-32, DDA Market, Behind Sachdeva Public School, Sector-13
+		01165008800
+	- Savitri Medicos
+		Shop No-10, CSC-9, DDA Market, Behind Goodwill Apartments, Sector-13
+		01147008950
+	- Durga Medicos
+		Shop No-32, DDA Market, Behind Goodwill Apartments, Sector-13
+		01164698518
+
+Sector-14:
+	- Lifeline Pharmacy
+		G-15, Tulsi Rd, Prashant Vihar, Sector-14
+		01127866666
+	- Shri Ram Medicos
+		C-232, PVR Prashant Vihar Rd, Sector-14
+		08130332920
+	- Prashant Medicos
+		Shop No-31, B=Block, DDA Market, Sector-14
+		01127564611
+	- Super Medicos
+		Shop No-34, E-Block, DDA Market, Gurudwara Singh Sabha Marg, Sector-14
+		09810466698
+
+Sector-15:
+	- Parashar Medicos
+		Shop No-1, House No-1, C-1 Block, Sector-15
+		01127298070
+	- Ishwar Medicos
+		Shop No-7, CSC-3, C-Block, Sector-15
+		01127893465
+	- Goyal Medicos
+		C-2/24, Badli Rd, Sector-15
+		09650092067
+	- Apollo Pharmacy
+		F 18/59, Sector-15
+		01149854708
+
+Sector-16:
+	- Sai Medicos
+		Shop No-2, B-2/8, Sector-16
+		07838327299
+	- Shiv Shakti Medicos
+		Shop No-4, Ground Floor, E-4/114, Sector-16
+		01127899246
+	- Durga Medicos
+		Shop No-12, CSC-7, DDA Market, Sector-16
+		09211584187
+	- Classic Medicos
+		A-3/89, Sector-16
+		09910929796
+
+Sector-18:
+	- RGC Melith Pharmacy
+		Shopping Centre-1, B-4/13, Sector-18
+		01127884444
+	- Apollo Pharmacy
+		Shop No-14 & 19, CSC-2, DDA Market, Sector-18
+		01127299557
+	- Raj Medicos
+		Shop No-22, CSC-2, DDA Market, Sector-18
+		01127854976
