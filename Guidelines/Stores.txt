@@ -22,6 +22,7 @@ Sector-8:
 	- Usha Pharmacy
 		Shop No-11, Balaji Plaza Complex, Sector-8
 		01127946837
+		
 Sector-9:
 	- Aggarwal Medicos
 		Shop No-5, DDA Market, Rajapur, Sector-9
@@ -32,7 +33,6 @@ Sector-9:
 	- Jai Shri Ram Medicos
 		Shop No-36, Centre Shopping Complex, Park Plaza Market, Sector-9
 		01127567840
-	- 
 
 Sector-11:
 	- Sanyog Pharmacy
