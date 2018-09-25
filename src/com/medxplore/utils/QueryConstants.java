@@ -17,4 +17,6 @@ public interface QueryConstants {
 	String USER_ROLE_MAP_SQL = "INSERT INTO USER_ROLE_MAPPING(UID,ROLEID) VALUES(?,?)";
 	String DELETE_USER_SQL = "DELETE FROM USER_MST WHERE USERID=?";
 	
+	String SEARCH_SQL = "SELECT -";
+	
 }

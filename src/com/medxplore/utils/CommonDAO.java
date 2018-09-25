@@ -13,7 +13,9 @@ import com.medxplore.app.dao.UserDAO;
 import com.medxplore.utils.QueryConstants;
 
 public interface CommonDAO {
+	
 	Logger logger = Logger.getLogger(CommonDAO.class);
+	
 	public static Connection getConnection() throws ClassNotFoundException, SQLException {
 		Connection conn = null;
 		

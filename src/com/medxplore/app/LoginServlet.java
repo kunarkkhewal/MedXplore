@@ -56,6 +56,7 @@ public class LoginServlet extends HttpServlet {
 				logger.debug("Session Created at: " + session.getCreationTime());
 				session.setAttribute("userid", userDTO.getUserid());
 				session.setAttribute("userdata", userDTO);
+				logger.debug("Redirecting to Dashboard.jsp...");
 				response.sendRedirect("Dashboard.jsp");
 			
 			}
