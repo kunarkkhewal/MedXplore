@@ -9,6 +9,7 @@ Tables:-
 	8. med_category_mst
 	9. store_mst
 	10. common_gene_para
+	11. med_store_mapping
 
 Screens:-
 	1. Face
