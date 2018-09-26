@@ -10,76 +10,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
     <script src="main.js"></script>
 </head>
 <body>
 
 
-    <header>
-        <div class="navigation">
-            <div class="nav-up">
-                <div id="logo" class="left">
-                    <a href="index.jsp"> <img src="assets\images\mx.png" alt=""></a>
-                    
-                </div>
-                <div class="right">
-                    <ul>
-                        <li><a href="login.jsp">Login</a></li>
-                        <li><a href="registration.jsp">Registration</a></li>
-                    </ul>
-                </div>
-            </div> 
-        </div>
+   <!-- main navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.jsp">medXplore</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="navigation">
-            <div class="nav-down">
-                <ul>
-                    <li><a href="home.jsp">Home</a></li>
-                    <li><a href="mentor.jsp">Mentor</a></li>
-                    <li><a href="developers.jsp">Developers</a></li>
-                    <li><a href="project.jsp">Project</a></li>
-                    <li><a href="contact.jsp">Contact Us</a></li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.jsp">Registration</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
+
+    <!-- Secondary Navigation Bar -->
+    <nav class="nav nav-pills nav-fill">
+        <a class="nav-item nav-link" href="home.jsp">Home</a>
+        <a class="nav-item nav-link" href="mentor.jsp">Mentor</a>
+        <a class="nav-item nav-link" href="developers.jsp">Developers</a>
+        <a class="nav-item nav-link" href="project.jsp">Project</a>
+        <a class="nav-item nav-link" href="contact.jsp">Contact Us</a>
+    </nav>
+
+    
 
 
     <h1>Register</h1>
-
-    <form id="registration">
-        <div>
-            <label for="userid">UserID: </label>
-            <input id="userid" type="text" name="userid" placeholder="UserID">
-            <label for="email">Email: </label>
-            <input id="email" type="email" name="emailid" placeholder="Email">
-            <br>
-            <label for="password">Password: </label>
-            <input id="password" type="password" name="pwd" placeholder="Password"  pattern=".{5,10}" required title="5 to 10 chars only">
-            <br>
-            <label for="cnfrmpassword">Confirm Password:</label>
-            <input id="cnfrmpassword" type="password" name="cpwd" placeholder="Confirm Password" required>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">User Name: </label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name">
         </div>
-        
-        <div>
-            <label for="fname">First Name: </label>
-            <input id="fname" type="text" name="firstname" placeholder="FirstName" required>
-
-            <label for="lname">Last Name: </label>
-            <input id="lname" type="text" name="lastname" placeholder="LastName" required>
-            <br>
-            <label for="address">Address: </label>
-            <input id="address" type="textarea" name="address" placeholder="Address">
-            <br>
-            <label for="contact">Contact No: </label>
-            <input id="contact" type="text" name="contactno" placeholder="Contact No" required pattern=".{10}">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address: </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        
-               
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password: </label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Confirm Password: </label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>      
+        <div class="form-group">
+            <label for="inputAddress">Address: </label>
+            <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Contact: </label>
+            <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <button type="submit" class="btn">Reset</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
+    <script src="assets\javascript\bootstrap.min.js"></script> 
 
 </body>
 </html>
