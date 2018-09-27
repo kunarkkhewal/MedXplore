@@ -48,7 +48,7 @@
 
 
     <h1>Register</h1>
-    <form>
+    <form action="http://localhost:8080/MedXplore/register" method="POST">
         <div class="form-group">
             <label for="exampleInputEmail1">User Name: </label>
             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name">
@@ -82,7 +82,7 @@
             <label for="inputAddress">Contact: </label>
             <input type="text" class="form-control" id="inputAddress">
         </div>
-        <button type="submit" class="btn">Reset</button>
+        <button type="reset" class="btn">Reset</button>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 

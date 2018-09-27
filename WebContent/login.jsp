@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb" errorPage="loginError.jsp"
     isErrorPage="false" trimDirectiveWhitespaces="true"
 %>
 
@@ -56,7 +56,7 @@
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
-        <button type="submit" class="btn">Reset</button>
+        <button type="reset" class="btn">Reset</button>
     </form>
 
     <script src="assets\javascript\bootstrap.min.js"></script>
