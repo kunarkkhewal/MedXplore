@@ -254,7 +254,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
-    <script src="assets/Stylesheet/bootstrap.min.js"></script>
+    <script src="assets/javascript/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="holder.min.js"></script>
     
