@@ -7,6 +7,12 @@
 <title>MedXplore: Search Medicine Error</title>
 </head>
 <body>
+	<%
+		// THIS IS FOR VALIDATING THE SESSION DURING DIRECT URL ACCESS...
+		if(session.getAttribute("medname")==null){
+			response.sendRedirect("searchMed.jsp");
+		}
+	%>
 	<h1>Error in Searching!</h1>
 	<p>please try again later...</p>
 </body>

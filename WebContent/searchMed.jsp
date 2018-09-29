@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" import="javax.servlet.http.HttpSession"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +7,14 @@
 <title>MedXplore: Search Medicine</title>
 </head>
 <body>
+	<%
+		// THIS IS FOR VALIDATING THE SESSION DURING DIRECT URL ACCESS...
+		if(session.getAttribute("userid")==null){
+			response.sendRedirect("home.jsp");
+		}
+		
+	%>
+	
 	<h1>Search Medicine</h1>
 	<form action="http://localhost:8080/MedXplore/search" method="post">
 		<table>

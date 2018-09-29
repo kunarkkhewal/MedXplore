@@ -13,6 +13,7 @@
 <body>
 	<h1>Search Medicine Result</h1>
 	<%
+		// THIS IS FOR VALIDATING THE SESSION DURING DIRECT URL ACCESS...
 		if(session.getAttribute("medname")==null){
 			response.sendRedirect("searchMed.jsp");
 		}
