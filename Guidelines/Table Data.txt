@@ -65,3 +65,9 @@ common_gene_para:
 	- descr
 	- key
 	- status
+
+med_store_mapping:
+	- mapid
+	- medid
+	- sid
+	- status
