@@ -29,7 +29,7 @@ public class SearchServlet extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		logger.debug("Inside SearchServlet doPost() method.");
+		logger.debug("Inside SearchServlet doPost() method."); 
 		
 		PrintWriter out = response.getWriter();
 		String medicineName = request.getParameter("medicineName");

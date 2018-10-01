@@ -17,7 +17,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>MedXplore: Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/Stylesheet/Bootstrap.css" rel="stylesheet">
@@ -48,7 +48,7 @@
             <li><a href="#">Dashboard</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Profile</a></li>
-            <li><a href="#">Log Out</a></li>
+            <li><a href="logout">Log Out</a></li>
           </ul>
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
