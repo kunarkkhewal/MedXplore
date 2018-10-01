@@ -41,8 +41,9 @@ public class SearchServlet extends HttpServlet {
 		try {
 			SearchDTO searchDTO = searchDAO.doSearch(medicineName);
 			logger.debug("SearchServlet received db-loaded SearchDTO Object: " + searchDTO);
+			HttpSession session = request.getSession(false);
+			session.setAttribute("fromSearchMed", "true");
 			if(searchDTO!=null) {
-				HttpSession session = request.getSession(false);
 				session.setAttribute("medname", searchDTO.getMedname());
 				session.setAttribute("searchData", searchDTO);
 				logger.debug("Redirecting to searchMedResult.jsp...");

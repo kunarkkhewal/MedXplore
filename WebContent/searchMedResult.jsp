@@ -39,7 +39,11 @@
 			</li>
 		</ul>
 	<%
-		} %>		
+		} %>
+		
+	<%
+		session.setAttribute("fromSearchMed", "false");
+	%>		
 	
 </body>
 </html>

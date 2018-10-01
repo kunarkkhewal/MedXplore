@@ -9,11 +9,17 @@
 <body>
 	<%
 		// THIS IS FOR VALIDATING THE SESSION DURING DIRECT URL ACCESS...
-		if(session.getAttribute("medname")==null){
-			response.sendRedirect("searchMed.jsp");
+		if(session.getAttribute("userid")==null){
+			response.sendRedirect("home.jsp");
+		}
+		if(session.getAttribute("fromSearchMed")=="false"){
+			response.sendRedirect("Dashboard.jsp");
 		}
 	%>
 	<h1>Error in Searching!</h1>
 	<p>please try again later...</p>
+	<%
+		session.setAttribute("fromSearchMed", "false");
+	%>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" import="javax.servlet.http.HttpSession"%>
+    pageEncoding="ISO-8859-1" errorPage="searchMedError.jsp" isErrorPage="false" import="javax.servlet.http.HttpSession"%>
 <!DOCTYPE html>
 <html>
 <head>
