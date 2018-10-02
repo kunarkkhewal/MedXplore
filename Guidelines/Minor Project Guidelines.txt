@@ -50,4 +50,3 @@ User rights:-
 
 - 9 Sectors: Sector-7,8,9,11,13,15,16,17,18
 - 33 Stores
-
