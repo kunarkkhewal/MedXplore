@@ -6,7 +6,10 @@
 <title>MedXplore: Logged Out</title>
 </head>
 <body>
-	<h1>YOU HAVE BEEN LOGGED OUT!</h1>
+	
+	<div class="alert alert-primary" role="alert">
+	  YOU HAVE BEEN LOGGED OUT!
+	</div>
 	
 
 </body>

@@ -50,37 +50,39 @@
     <h1>Register</h1>
     <form action="http://localhost:8080/MedXplore/register" method="POST">
         <div class="form-group">
-            <label for="exampleInputEmail1">User Name: </label>
-            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter User Name">
+            <label for="exampleInputEmail1">User ID: </label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User Name">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address: </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailid" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Password: </label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password">
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Confirm Password: </label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password">
         </div>
         <div class="form-row">
             <div class="col">
-                <input type="text" class="form-control" placeholder="First name">
+            	<label for="firstname">First Name: </label>
+                <input name="firstname" type="text" class="form-control" placeholder="First name">
             </div>
             <div class="col">
-                <input type="text" class="form-control" placeholder="Last name">
+            	<label for="lastname">Last Name: </label>
+                <input name="lastname" type="text" class="form-control" placeholder="Last name">
             </div>
         </div>      
         <div class="form-group">
             <label for="inputAddress">Address: </label>
-            <input type="text" class="form-control" id="inputAddress">
+            <input type="text" class="form-control" id="inputAddress" name="address">
         </div>
         <div class="form-group">
             <label for="inputAddress">Contact: </label>
-            <input type="text" class="form-control" id="inputAddress">
+            <input type="text" class="form-control" id="inputAddress" name="contactno">
         </div>
         <button type="reset" class="btn">Reset</button>
         <button type="submit" class="btn btn-primary">Submit</button>

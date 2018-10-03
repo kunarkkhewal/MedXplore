@@ -16,8 +16,11 @@
 			response.sendRedirect("Dashboard.jsp");
 		}
 	%>
-	<h1>Error in Searching!</h1>
-	<p>please try again later...</p>
+	
+	<div class="alert alert-danger" role="alert">
+		<h1>Error in Searching!</h1>
+	  	<p>please try again later...</p>
+	</div>
 	<%
 		session.setAttribute("fromSearchMed", "false");
 	%>

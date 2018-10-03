@@ -15,8 +15,9 @@
 		
 	%>
 	
+	<!-- Search Bar  -->
 	<h1>Search Medicine</h1>
-	<form action="http://localhost:8080/MedXplore/search" method="post">
+	<!-- <form action="http://localhost:8080/MedXplore/search" method="post">
 		<table>
 			<tr>
 				<td>
@@ -27,6 +28,10 @@
 				</td>
 			</tr>
 		</table>
-	</form>
+	</form> -->
+	<form class="form-inline my-2 my-lg-0" action="http://localhost:8080/MedXplore/search" method="post">
+      <input class="form-control mr-sm-2" type="search" placeholder="Enter Medicine Name" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
 </body>
 </html>

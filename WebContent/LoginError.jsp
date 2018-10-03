@@ -7,7 +7,10 @@
 <title>MedXplore: Login Error</title>
 </head>
 <body>
-<h1>Error in Login! Please try again...</h1>
+
+	<div class="alert alert-danger" role="alert">
+		<h1>Error in Login! Please try again...</h1>
+	</div>
 
 </body>
 </html>
