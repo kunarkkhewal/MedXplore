@@ -12,6 +12,7 @@
     <title>Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
     <script src="main.js"></script>
 </head>
 
@@ -49,12 +50,10 @@
     <h1>MedXplore</h1>
     <div class="jumbotron">
         <h1 class="display-4">medXplore</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quos quasi qui ipsa illum
-            voluptate, ratione maxime aut, porro illo quia incidunt ipsam aperiam. Tempore inventore sequi optio
-            consequatur cumque!</p>
+        <p class="lead">{ ..Project Description.. }</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
     </div>
     <script src="assets\javascript\bootstrap.min.js"></script>
 </body>

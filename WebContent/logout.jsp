@@ -4,12 +4,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MedXplore: Logged Out</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
 	
 	<div class="alert alert-primary" role="alert">
 	  YOU HAVE BEEN LOGGED OUT!
 	</div>
+	<a href="http://localhost:8080/MedXplore/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Go to Home Page</a>
 	
 
 </body>

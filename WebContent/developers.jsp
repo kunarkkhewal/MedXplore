@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Developers</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
     <script src="main.js"></script>
 </head>
 
@@ -50,36 +51,36 @@
 
 
     <h1>Developers</h1>
-    <div class="card-deck">
-        <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+    <div class="card-deck" style="width: 50%;">
+        <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="assets/images/Dev_1.jpeg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Akshita Aggarwal</h5>
                 <p class="card-text">
-                    Content Developer <br>
-                    IT-4th Year <br>
+                    Content & Design Developer <br>
+                    IT-7th Sem <br>
                     00220803115 <br>
                 </p>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+        <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="assets/images/Dev_2.jpg" alt="Card image cap" style="size: 120px 120px" >
             <div class="card-body">
                 <h5 class="card-title">Kunark Khewal</h5>
                 <p class="card-text">
-                    FrontEnd Developer <br>
-                    IT-4th Year <br>
+                    Front-End Developer <br>
+                    IT-7th Sem <br>
                     01520803115 <br>
                 </p>
             </div>
         </div>
-        <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+        <div class="card" style="width: 25%;">
+            <img class="card-img-top" src="assets/images/Dev_3.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Rohit Meghwal</h5>
                 <p class="card-text">
-                    BackEnd Developer <br>
-                    IT-4th Year <br>
+                    Back-End Developer <br>
+                    IT-7th Sem <br>
                     02720803115 <br>
                 </p>
             </div>

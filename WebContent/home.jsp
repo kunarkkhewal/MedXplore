@@ -31,7 +31,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
             </ul>
@@ -48,14 +48,11 @@
     </nav>
 
     <!-- home page where project related info is presented -->
-    <h1>MedXplore</h1>
     <div class="jumbotron">
-        <h1 class="display-4">medXplore</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quos quasi qui ipsa illum
-            voluptate, ratione maxime aut, porro illo quia incidunt ipsam aperiam. Tempore inventore sequi optio
-            consequatur cumque!</p>
+        <h1 class="display-4"><b>medXplore</b></h1>
+        <p class="lead">{ ..Project Intro..}</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+<!--         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
         <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
     </div>
 

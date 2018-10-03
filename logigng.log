@@ -195,3 +195,311 @@
 2018-10-03 17:19:42 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: com.medxplore.app.dto.SearchDTO@71db07a7
 2018-10-03 17:19:42 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: com.medxplore.app.dto.SearchDTO@71db07a7
 2018-10-03 17:19:42 DEBUG SearchServlet:49 - Redirecting to searchMedResult.jsp...
+2018-10-04 02:53:27 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 02:53:27 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 02:53:27 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 02:53:27 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 02:53:27 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 02:53:27 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: null
+2018-10-04 02:53:27 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 02:53:27 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: null
+2018-10-04 02:53:27 DEBUG LoginServlet:64 - Error in Login.
+2018-10-04 02:53:33 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 02:53:33 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 02:53:33 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 02:53:33 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 02:53:33 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 02:53:33 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 02:53:33 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 02:53:33 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 02:53:33 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 02:53:33 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 02:53:33 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@248085dd
+2018-10-04 02:53:33 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 02:53:33 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@248085dd
+2018-10-04 02:53:33 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 02:53:33 DEBUG LoginServlet:55 - Session ID: CD502CCA7778167D5F440AF009CCF92F
+2018-10-04 02:53:33 DEBUG LoginServlet:56 - Session Created at: 1538601808567
+2018-10-04 02:53:33 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:01:40 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:01:40 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:01:40 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:01:40 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:01:40 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:01:40 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:01:40 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:01:40 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:01:40 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:01:40 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:01:40 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:01:40 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:01:40 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:01:40 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:01:40 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:01:40 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:01:40 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:01:40 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@52342fc6
+2018-10-04 03:01:40 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:01:40 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@52342fc6
+2018-10-04 03:01:40 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:01:40 DEBUG LoginServlet:55 - Session ID: 87A13251F538889C32424BC3B24C6014
+2018-10-04 03:01:40 DEBUG LoginServlet:56 - Session Created at: 1538602270939
+2018-10-04 03:01:40 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:28:05 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:28:05 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:28:05 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:28:06 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:28:06 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:28:06 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:28:06 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:28:06 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:28:06 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:28:06 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:28:06 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:28:06 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:28:06 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:28:06 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:28:06 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:28:06 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:28:06 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:28:06 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@4e603b1d
+2018-10-04 03:28:06 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:28:06 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@4e603b1d
+2018-10-04 03:28:06 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:28:06 DEBUG LoginServlet:55 - Session ID: 0E1E63F9756AB4F767E33E1E949D1B15
+2018-10-04 03:28:06 DEBUG LoginServlet:56 - Session Created at: 1538603879804
+2018-10-04 03:28:06 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:52:05 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:52:05 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:52:05 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:52:05 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:52:05 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:52:05 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:52:05 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:52:05 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:52:05 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:52:05 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:52:05 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@6d8dc053
+2018-10-04 03:52:05 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:52:05 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@6d8dc053
+2018-10-04 03:52:05 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:52:05 DEBUG LoginServlet:55 - Session ID: 427E375045D1C8EC6DDB38C1B5D28690
+2018-10-04 03:52:05 DEBUG LoginServlet:56 - Session Created at: 1538605319783
+2018-10-04 03:52:05 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:54:35 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:54:35 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:54:35 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:54:36 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:54:36 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:54:36 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:54:36 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:54:36 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:54:36 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:54:36 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:54:36 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:54:36 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:54:36 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:54:36 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:54:36 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:54:36 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:54:36 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:54:36 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@55f20112
+2018-10-04 03:54:36 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:54:36 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@55f20112
+2018-10-04 03:54:36 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:54:36 DEBUG LoginServlet:55 - Session ID: CD2AC20406B5A4B74A25A680E1193518
+2018-10-04 03:54:36 DEBUG LoginServlet:56 - Session Created at: 1538605476028
+2018-10-04 03:54:36 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:54:47 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:54:47 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:54:47 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:54:47 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:54:47 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:54:47 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:54:47 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:54:47 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 03:54:58 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:54:58 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:54:58 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:54:58 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:54:58 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:54:58 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:54:58 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:54:58 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 03:55:02 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:55:02 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:55:02 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:55:03 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:55:03 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:55:03 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:55:03 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:55:03 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 03:55:13 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:55:13 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:55:13 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:55:13 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:55:13 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:55:13 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:55:13 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:55:13 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 03:56:56 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:56:56 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:56:56 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:56:56 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:56:56 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:56:56 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:56:56 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:56:56 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:56:56 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:56:56 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:56:56 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:56:56 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:56:56 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:56:56 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:56:56 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:56:56 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:56:56 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:56:56 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@1eb230f6
+2018-10-04 03:56:56 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:56:56 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@1eb230f6
+2018-10-04 03:56:56 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:56:56 DEBUG LoginServlet:55 - Session ID: 73AA1DE759508376598BEF73FDE4172E
+2018-10-04 03:56:56 DEBUG LoginServlet:56 - Session Created at: 1538605612015
+2018-10-04 03:56:56 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:57:02 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:57:02 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:57:02 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:57:02 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:57:02 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:57:02 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:57:02 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:57:02 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 03:57:10 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:57:10 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:57:10 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:57:10 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:57:10 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:57:10 DEBUG SearchDAO:43 - SearchDTO Object created in loop.
+2018-10-04 03:57:10 DEBUG SearchDAO:49 - Medicine credentials loaded into the SearchDTO object.
+2018-10-04 03:57:10 DEBUG SearchDAO:57 - Store added to SearchDTO object AList<>.
+2018-10-04 03:57:10 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: com.medxplore.app.dto.SearchDTO@418191b9
+2018-10-04 03:57:10 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: com.medxplore.app.dto.SearchDTO@418191b9
+2018-10-04 03:57:10 DEBUG SearchServlet:49 - Redirecting to searchMedResult.jsp...
+2018-10-04 03:58:49 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 03:58:49 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 03:58:49 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 03:58:49 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 03:58:49 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 03:58:49 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 03:58:49 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 03:58:49 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 03:58:49 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:58:49 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:58:49 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:58:49 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:58:49 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:58:49 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:58:49 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 03:58:49 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 03:58:49 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 03:58:49 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@5ef255d
+2018-10-04 03:58:49 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 03:58:49 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@5ef255d
+2018-10-04 03:58:49 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 03:58:49 DEBUG LoginServlet:55 - Session ID: A4BC312F6DE40CC1147155425CCD0393
+2018-10-04 03:58:49 DEBUG LoginServlet:56 - Session Created at: 1538605722514
+2018-10-04 03:58:49 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 03:58:57 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:58:57 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:58:57 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:58:57 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:58:57 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:58:57 DEBUG SearchDAO:43 - SearchDTO Object created in loop.
+2018-10-04 03:58:57 DEBUG SearchDAO:49 - Medicine credentials loaded into the SearchDTO object.
+2018-10-04 03:58:57 DEBUG SearchDAO:57 - Store added to SearchDTO object AList<>.
+2018-10-04 03:58:57 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: com.medxplore.app.dto.SearchDTO@2e3fa19f
+2018-10-04 03:58:57 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: com.medxplore.app.dto.SearchDTO@2e3fa19f
+2018-10-04 03:58:57 DEBUG SearchServlet:49 - Redirecting to searchMedResult.jsp...
+2018-10-04 03:59:31 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 03:59:31 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 03:59:31 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 03:59:31 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 03:59:31 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 03:59:31 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 03:59:31 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 03:59:31 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 04:28:11 DEBUG LoginServlet:39 - Inside LoginServlet doPost() method.
+2018-10-04 04:28:11 DEBUG LoginServlet:45 - LoginServlet doPost() received credentials.
+2018-10-04 04:28:11 DEBUG UserDAO:85 - Inside UserDAO doLogin() method.
+2018-10-04 04:28:12 DEBUG UserDAO:95 - Connection created for LOGIN inside UserDAO.
+2018-10-04 04:28:12 DEBUG UserDAO:100 - LOGIN Query executed.
+2018-10-04 04:28:12 DEBUG UserDAO:104 - UserDTO Object created in loop.
+2018-10-04 04:28:12 DEBUG UserDAO:106 - UserDTO Object setUserId().
+2018-10-04 04:28:12 DEBUG UserDAO:108 - UserDTO Object setRoleName().
+2018-10-04 04:28:12 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 04:28:12 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 04:28:12 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 04:28:12 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 04:28:12 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 04:28:12 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 04:28:12 DEBUG UserDAO:114 - UserDTO Object setRightName().
+2018-10-04 04:28:12 DEBUG UserDAO:116 - UserDTO Object setScreenName().
+2018-10-04 04:28:12 DEBUG UserDAO:118 - UserDTO Object Right added to AList<>.
+2018-10-04 04:28:12 DEBUG UserDAO:120 - Returning db-loaded UserDTO object: com.medxplore.app.dto.UserDTO@6a0f5eca
+2018-10-04 04:28:12 DEBUG UserDAO:133 - Resources closed for LOGIN in UserDAO.
+2018-10-04 04:28:12 DEBUG LoginServlet:51 - LoginServlet received db-loaded UserDTO Object: com.medxplore.app.dto.UserDTO@6a0f5eca
+2018-10-04 04:28:12 DEBUG LoginServlet:54 - HttpSession created.
+2018-10-04 04:28:12 DEBUG LoginServlet:55 - Session ID: 5748F57396BA786115D9244AA580C201
+2018-10-04 04:28:12 DEBUG LoginServlet:56 - Session Created at: 1538607399869
+2018-10-04 04:28:12 DEBUG LoginServlet:59 - Redirecting to Dashboard.jsp...
+2018-10-04 04:28:19 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 04:28:19 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 04:28:19 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 04:28:19 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 04:28:19 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 04:28:19 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: null
+2018-10-04 04:28:19 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: null
+2018-10-04 04:28:19 DEBUG SearchServlet:53 - Error in Search...
+2018-10-04 04:28:33 DEBUG SearchServlet:32 - Inside SearchServlet doPost() method.
+2018-10-04 04:28:33 DEBUG SearchServlet:37 - SearchServlet doPost() received search credentials
+2018-10-04 04:28:33 DEBUG SearchDAO:22 - Inside SearchDAO doSearch() method.
+2018-10-04 04:28:33 DEBUG SearchDAO:34 - Connection created for SEARCH inside SearchDAO.
+2018-10-04 04:28:33 DEBUG SearchDAO:38 - MAIN_MED_SQL query executed.
+2018-10-04 04:28:33 DEBUG SearchDAO:43 - SearchDTO Object created in loop.
+2018-10-04 04:28:33 DEBUG SearchDAO:49 - Medicine credentials loaded into the SearchDTO object.
+2018-10-04 04:28:33 DEBUG SearchDAO:57 - Store added to SearchDTO object AList<>.
+2018-10-04 04:28:33 DEBUG SearchDAO:59 - Returning db-loaded SearchDTO object: com.medxplore.app.dto.SearchDTO@758ec77e
+2018-10-04 04:28:33 DEBUG SearchServlet:43 - SearchServlet received db-loaded SearchDTO Object: com.medxplore.app.dto.SearchDTO@758ec77e
+2018-10-04 04:28:33 DEBUG SearchServlet:49 - Redirecting to searchMedResult.jsp...

@@ -9,6 +9,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>MedXplore: Search Medicine Result</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
 	<h1>Search Medicine Result</h1>
@@ -24,9 +25,9 @@
 		}
 	%>
 	
-	<h3>Medicine: <%=searchDTO.getMedname()%>	(<%=searchDTO.getPackSize()%>)</h3>
+	<h3>Medicine: <%=searchDTO.getMedname()%>	(<%=searchDTO.getPackSize()%>'s)</h3>
 	<h3>Salt: <%=searchDTO.getSalt()%>	</h3>
-	<h3>Price: <%=searchDTO.getPrice() %>	</h3>
+	<h3>Price: ₹ <%=searchDTO.getPrice() %>	</h3>
 
 	<%
 		for(StoreDTO storeDTO : searchDTO.getStores()){ %>

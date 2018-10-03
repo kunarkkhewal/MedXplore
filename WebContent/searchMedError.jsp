@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>MedXplore: Search Medicine Error</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
 	<%

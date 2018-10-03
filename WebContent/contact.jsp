@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
     <script src="main.js"></script>
 </head>
 

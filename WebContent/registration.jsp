@@ -51,7 +51,7 @@
     <form action="http://localhost:8080/MedXplore/register" method="POST">
         <div class="form-group">
             <label for="exampleInputEmail1">User ID: </label>
-            <input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User Name">
+            <input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User ID">
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address: </label>
@@ -64,7 +64,7 @@
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Confirm Password: </label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" name="cpwd" placeholder="Password">
         </div>
         <div class="form-row">
             <div class="col">
@@ -78,11 +78,11 @@
         </div>      
         <div class="form-group">
             <label for="inputAddress">Address: </label>
-            <input type="text" class="form-control" id="inputAddress" name="address">
+            <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Address">
         </div>
         <div class="form-group">
             <label for="inputAddress">Contact: </label>
-            <input type="text" class="form-control" id="inputAddress" name="contactno">
+            <input type="text" class="form-control" id="inputAddress" name="contactno" placeholder="Contact No">
         </div>
         <button type="reset" class="btn">Reset</button>
         <button type="submit" class="btn btn-primary">Submit</button>

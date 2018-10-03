@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mentor</title>
     <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
     <script src="main.js"></script>
 </head>
 
@@ -49,10 +50,15 @@
 
 
     <h1>Mentor</h1>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
+    <div class="card" style="width: 25%;">
+        <img class="card-img-top" src="assets/images/Mentor_Snap.jpg" alt="Card image cap">
         <div class="card-body">
-            <p class="card-text"><h2>Mr. C.M. Sharma</h2><br><h2>Information Technology Dept.</h2></p>
+            <p class="card-text">
+            	<h3>Mr. C.M. Sharma</h3><br>
+            	<h5>Assistant Professor,</h5><br>
+            	<h5>Department of Information Technology,</h5><br>
+            	<h5>BPIT, Delhi</h5><br>
+            </p>
         </div>
     </div>
 
