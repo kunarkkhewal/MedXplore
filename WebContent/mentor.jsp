@@ -55,8 +55,8 @@
         <div class="card-body">
             <p class="card-text">
             	<h3>Mr. C.M. Sharma</h3><br>
-            	<h5>Assistant Professor,</h5><br>
-            	<h5>Department of Information Technology,</h5><br>
+            	<h5>Assistant Professor,</h5>
+            	<h5>Department of Information Technology, </h5>
             	<h5>BPIT, Delhi</h5><br>
             </p>
         </div>
