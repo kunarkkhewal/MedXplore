@@ -32,9 +32,7 @@ public interface CommonDAO {
 		ResultSet rs = null;
 		
 		try {
-			ResourceBundle rb = ResourceBundle.getBundle("config");
-			Class.forName(rb.getString("drivername"));
-			conn = DriverManager.getConnection(rb.getString("dburl"), rb.getString("userid"), rb.getString("password"));
+			conn = getConnection();
 			
 			pstmt = conn.prepareStatement(QueryConstants.UID_SQL);
 			pstmt.setString(1, userid);
@@ -63,10 +61,7 @@ public interface CommonDAO {
 		ResultSet rs = null;
 		
 		try {
-			ResourceBundle rb = ResourceBundle.getBundle("config");
-			Class.forName(rb.getString("drivername"));
-			conn = DriverManager.getConnection(rb.getString("dburl"), rb.getString("userid"), rb.getString("password"));
-			
+			conn = getConnection();			
 			pstmt = conn.prepareStatement(QueryConstants.ROLEID_SQL);
 			pstmt.setString(1, rolename);
 			rs = pstmt.executeQuery();

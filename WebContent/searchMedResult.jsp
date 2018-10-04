@@ -45,6 +45,8 @@
 	<%
 		session.setAttribute("fromSearchMed", "false");
 	%>		
+	<a href="http://localhost:8080/MedXplore/searchMed.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Go to Search Medicine</a>
+	<a href="http://localhost:8080/MedXplore/Dashboard.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Go to Dashboard</a>
 	
 </body>
 </html>

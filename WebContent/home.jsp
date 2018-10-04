@@ -20,7 +20,7 @@
 
     <!-- main navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="home.jsp">medXplore</a>
+        <a class="navbar-brand" href="home.jsp">MedXplore</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
             </ul>
@@ -49,8 +49,8 @@
 
     <!-- home page where project related info is presented -->
     <div class="jumbotron">
-        <h1 class="display-4"><b>medXplore</b></h1>
-        <p class="lead">{ ..Project Intro..}</p>
+        <h1 class="display-4"><b>MedXplore</b></h1>
+        <p class="lead">Prototype for B.Tech Minor Project</p>
         <hr class="my-4">
 <!--         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
         <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->

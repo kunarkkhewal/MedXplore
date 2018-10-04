@@ -20,7 +20,7 @@
 
     <!-- main navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.jsp">medXplore</a>
+        <a class="navbar-brand" href="home.jsp">MedXplore</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,10 +47,16 @@
         <a class="nav-item nav-link" href="contact.jsp">Contact Us</a>
     </nav>
 
-    <h1>MedXplore</h1>
     <div class="jumbotron">
-        <h1 class="display-4">medXplore</h1>
-        <p class="lead">{ ..Project Description.. }</p>
+        <h1 class="display-4">MedXplore</h1>
+        <p class="lead">The importance of medicines has increased a lot because it has enhanced the life
+expectancy of human beings. For last many years,medicines have been a very
+important part of human as well as animal lives.They have paved a way to reliable
+methods of curing and protecting human lives. But these days, doctors are
+commercializing this area for their benefit only. They particularly recommend
+medicines of brands which can earn them profit.
+By implementation of this project, we aim to change the scenario by allowing user to
+choose the brand according to its price as per the user’s pocket allow in his/her own local area.</p>
         <hr class="my-4">
         <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
