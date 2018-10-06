@@ -26,12 +26,12 @@ Admin rights:-
 	- Remove Medicine		delMed.jsp
 	- Add Store			addStore.jsp
 	- Remove Store			delStore.jsp
-	- Update Profile		updateProfileAdmin.jsp
+	- Update Profile		updateProfile.jsp
 	- Add Admin			addAdmin.jsp
 
 User rights:-
 	- Search Medicine		searchMed.jsp
-	- Update Profile		updateProfileUser.jsp
+	- Update Profile		updateProfile.jsp
 	- MedBook			medBook.jsp
 
 
