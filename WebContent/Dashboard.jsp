@@ -74,7 +74,7 @@
           <% 
           if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
           for(RightDTO rightDTO : userDTO.getRights()) { %>
-          <li class="<%=isActive?"active":"" %>"><a href="<%=rightDTO.getScreenName()%>"><%=rightDTO.getRightName() %></a></li>
+          <li class=""><a href="<%=rightDTO.getScreenName()%>"><%=rightDTO.getRightName() %></a></li>
           <%
           isActive = false;
           }
