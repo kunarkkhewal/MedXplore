@@ -1,4 +1,6 @@
+<%@page import="java.util.ArrayList"%>
 <%@page import="com.medxplore.app.dto.SearchDTO" %>
+<%@page import="com.medxplore.app.dto.MedAltDTO" %>
 <%@page import="com.medxplore.app.dto.StoreDTO" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" autoFlush="true" buffer="18kb" 
@@ -23,10 +25,15 @@
 		if(searchDTO==null){
 			response.sendRedirect("searchMedError.jsp");
 		}
+		ArrayList<MedAltDTO> medAltList = (ArrayList<MedAltDTO>)session.getAttribute("altData");
 	%>
 	
+	
+	
 	<h3>Medicine: <%=searchDTO.getMedname()%>	(<%=searchDTO.getPackSize()%>'s)</h3>
-	<h3>Salt: <%=searchDTO.getSalt()%>	</h3>
+	<h3>Salts:	<%for(int i = 0 ; i < searchDTO.getSalts().size() ; i++){%>
+		<%=searchDTO.getSalts().get(i) + " "%>
+	<%} %></h3>
 	<h3>Price: ₹ <%=searchDTO.getPrice() %>	</h3>
 
 	<%
@@ -37,6 +44,21 @@
 			<%=storeDTO.getStoreAddress() %>
 			<br/>
 			<%=storeDTO.getStoreContactNo() %>
+			</li>
+		</ul>
+	<%
+		} %>
+		
+		<h2>ALTERNATES:-</h2></br>
+		
+	<%
+		for(MedAltDTO medAltDTO : medAltList){ %>
+		<ul>
+			<li><%=medAltDTO.getMedname() %>
+			<br/>
+			<%=medAltDTO.getPackSize() %>
+			<br/>
+			<%=medAltDTO.getPrice() %>
 			</li>
 		</ul>
 	<%

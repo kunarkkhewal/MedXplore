@@ -1,36 +1,52 @@
-*Diabetes: Metformin 500mg
+*Diabetes: 
+
+	Metformin
 	1.RIOMET OD 500mg (15 tab)
 		Sun Pharma		29.99
-	
-	2.GLUFORMIN 500mg (10 tab)
-		Abbott Healthcare	15.72
-
-	3.MELMET 500mg (20 tab)
-		Micro Labs		30.46
-
-	4.EXERMET 500mg (15 tab)
+	2.RIOMET OD 1000mg (15 tab)
+		Sun Pharma		57.41
+	3.EXERMET 500mg (15 tab)
 		Cipla			28.27	
-
+	4.EXERMET 1000mg (15 tab)
+		Cipla			57.44
 	5.CETAPIN XR 500mg (15 tab)
 		Sanofi			30.07
+	
+	Pioglitazone 15mg + Metformin 500mg
+	6.EXERMET P 15/500mg (10 tab)
+		Cipla			40.66
+	7.CETAPIN P 15mg (10 tab)
+		Sanofi			75.89
 
-*Fever: Paracetamol 500mg
+*Fever: 
+	
+	Paracetamol 500mg
 	1.CROCIN ADVANCE 500mg (15 tab)
 		GSK			14.23
-	2.DOLOMOL 500mg (10 tab)
-		Micro Labs		9.18
-	3.PARACIP 500mg (10 tab)
+	2.PARACIP 500mg (10 tab)
 		Cipla			9.08
+	3.PARACIP 650mg (10 tab)
+		Cipla			18.69
 	4.MALIDENS 500mg (10 tab)
 		Abbott Healthcare	9.39 
+	5.MALIDENS 650mg (10 tab)
+		Abbott Healthcare	19.32 
 
-*Pain: Ibuprofen 400mg
+*Pain: 
+
+	Ibuprofen 400mg
 	1.BRUFEN 400mg (15 tab)
 		Abbott Healthcare	10.92
-	2.IBUGESIC 400mg (15 tab)
+	2.BRUFEN 600mg (15 tab)
+		Abbott Healthcare	21.77	
+	3.IBUGESIC 400mg (15 tab)
 		Cipla			10.24
+	4.IBUGESIC 600mg (15 tab)
+		Cipla			15.21
 
-*Bacterial Infection: Cefixime 200mg
+*Bacterial Infection: 
+
+	Cefixime 200mg
 	1.CEFI 200mg (10 tab)
 		Abbott Healthcare	97.55
 	2.ZIPRAX DT 200mg (10 tab)

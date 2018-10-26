@@ -31,6 +31,13 @@
 		</table>
 	</form> -->
 	<form class="form-inline my-2 my-lg-0" action="http://localhost:8080/MedXplore/search" method="post">
+	  <select class="form-control" id="exampleFormControlSelect1" name="categoryName" >
+		<option selected="selected" disabled="disabled">Choose Category..</option>
+     	<option>Diabetes</option>
+      	<option>Fever</option>
+      	<option>Pain</option>
+      	<option>Bacterial Infection</option>
+      </select>
       <input class="form-control mr-sm-2" type="search" placeholder="Enter Medicine Name" aria-label="Search" name="medicineName">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>

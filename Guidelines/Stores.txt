@@ -5,10 +5,10 @@ Sector-7:
 	- Apollo Pharmacy
 		Shop No-32, Maharaja Agarsen Marg, Sector-7
 		01145610501
-	- Narula Medicos
+	//- Narula Medicos
 		C-7/114, Sector-7
 		09810474403
-	- Om Medicos
+	//- Om Medicos
 		D-12/240, Sector-7
 		09310006010
 
@@ -19,7 +19,7 @@ Sector-8:
 	- Bhatia Medicos
 		E-15/158, Sector-8
 		09811993990
-	- Usha Pharmacy
+	//- Usha Pharmacy
 		Shop No-11, Balaji Plaza Complex, Sector-8
 		01127946837
 		
@@ -30,7 +30,7 @@ Sector-9:
 	- Prateek Medicos
 		Shop No-34, CSC-2, DDA Market, Sector-9
 		09999417999
-	- Jai Shri Ram Medicos
+	//- Jai Shri Ram Medicos
 		Shop No-36, Centre Shopping Complex, Park Plaza Market, Sector-9
 		01127567840
 
@@ -41,12 +41,14 @@ Sector-11:
 	- Mittal Pharmacy
 		B-8/1, Sector-11
 		09716349296
-	- Anvie Pharmacy
+	//- Anvie Pharmacy
 		G-5/16, Sector-11
 		01142686644
-	- Metro Medicos
+	//- Metro Medicos
 		G-5/26, Sector-11
 		01147596060
+
+/////////////////////////////////////////////////////////////////////////
 
 Sector-13:
 	- Apollo Pharmacy

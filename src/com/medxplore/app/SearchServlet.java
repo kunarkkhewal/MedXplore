@@ -1,8 +1,8 @@
 package com.medxplore.app;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,6 +14,7 @@ import javax.servlet.http.HttpSession;
 import org.apache.log4j.Logger;
 
 import com.medxplore.app.dao.SearchDAO;
+import com.medxplore.app.dto.MedAltDTO;
 import com.medxplore.app.dto.SearchDTO;
 
 
@@ -31,7 +32,7 @@ public class SearchServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		logger.debug("Inside SearchServlet doPost() method."); 
 		
-		PrintWriter out = response.getWriter();
+		String categoryName = request.getParameter("categoryName");
 		String medicineName = request.getParameter("medicineName");
 		
 		logger.debug("SearchServlet doPost() received search credentials");
@@ -39,13 +40,15 @@ public class SearchServlet extends HttpServlet {
 		SearchDAO searchDAO = new SearchDAO();
 		
 		try {
-			SearchDTO searchDTO = searchDAO.doSearch(medicineName);
+			SearchDTO searchDTO = searchDAO.doSearch(categoryName,medicineName);
 			logger.debug("SearchServlet received db-loaded SearchDTO Object: " + searchDTO);
 			HttpSession session = request.getSession(false);
 			session.setAttribute("fromSearchMed", "true");
 			if(searchDTO!=null) {
 				session.setAttribute("medname", searchDTO.getMedname());
 				session.setAttribute("searchData", searchDTO);
+				ArrayList<MedAltDTO> medAltList = searchDAO.doAlt(searchDTO.getMedname(), searchDTO.getSalts());
+				session.setAttribute("altData", medAltList);
 				logger.debug("Redirecting to searchMedResult.jsp...");
 				response.sendRedirect("searchMedResult.jsp");
 			}
