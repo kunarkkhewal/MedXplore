@@ -48,7 +48,7 @@ public class UserDAO {
 					pstmt.setString(1, userid);
 					pstmt.executeUpdate();
 					logger.debug("Error in User_Role_Mapping. Registration Rollbacked.");
-					return "Error in Registering...";
+					return "ERROR";
 				}
 				
 				logger.debug("UID fetched: " + uid + "\tROLEID fetched: " + roleid);
@@ -62,11 +62,11 @@ public class UserDAO {
 				else {
 					logger.debug("User_Role_Mapping FAILED.");
 				}
-				return ("Hi " + userid + "! Registration Successful.") ;
+				return "SUCCESS" ;
 			}
 			else {
 				logger.debug("Record Not Added. Registration Failed.");
-				return "Error in Registering...";
+				return "ERROR";
 			}	
 		}
 		finally {
@@ -104,6 +104,18 @@ public class UserDAO {
 					logger.debug("UserDTO Object created in loop.");
 					userDTO.setUserid(rs.getString("USERID"));
 					logger.debug("UserDTO Object setUserId().");
+					userDTO.setPassword(rs.getString("PASSWORD"));
+					logger.debug("UserDTO Object setPassword().");
+					userDTO.setEmailId(rs.getString("EMAILID"));
+					logger.debug("UserDTO Object setEmailId().");
+					userDTO.setFirstName(rs.getString("FIRSTNAME"));
+					logger.debug("UserDTO Object setFirstName().");
+					userDTO.setLastName(rs.getString("LASTNAME"));
+					logger.debug("UserDTO Object setLastName().");
+					userDTO.setAddress(rs.getString("ADDRESS"));
+					logger.debug("UserDTO Object setAddress().");
+					userDTO.setContactNo(rs.getString("CONTACTNO"));
+					logger.debug("UserDTO Object setContactNo().");
 					userDTO.setRoleName(rs.getString("ROLE"));
 					logger.debug("UserDTO Object setRoleName().");
 					rights = new ArrayList<>();

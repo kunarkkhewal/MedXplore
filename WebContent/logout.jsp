@@ -7,7 +7,10 @@
 <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
-	
+	<%if(session.getAttribute("userid")!=null){
+			response.sendRedirect("home.jsp");
+		}
+	 %>
 	<div class="alert alert-primary" role="alert">
 	  YOU HAVE BEEN LOGGED OUT!
 	</div>

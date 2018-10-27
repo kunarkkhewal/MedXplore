@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
 				session.setAttribute("userid", userDTO.getUserid());
 				session.setAttribute("userdata", userDTO);
 				logger.debug("Redirecting to Dashboard.jsp...");
-				response.sendRedirect("Dashboard.jsp");
+				response.sendRedirect("home.jsp");
 			
 			}
 			else {

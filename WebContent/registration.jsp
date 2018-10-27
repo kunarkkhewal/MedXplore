@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb" errorPage="registrationError.jsp"
     isErrorPage="false" trimDirectiveWhitespaces="true"
 %>
 
@@ -15,7 +15,10 @@
 </head>
 <body>
 
-
+	<%if(session.getAttribute("userid")!=null){
+			response.sendRedirect("home.jsp");
+		}
+	 %>
    <!-- main navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="home.jsp">MedXplore</a>
@@ -25,12 +28,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+				<%
+  					session = request.getSession(false); 
+ 					if(session.getAttribute("userid")==null){%>
+				<li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
+					<%}
+ 					else{%>
+				<li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
+				<li><a class="nav-link active" href="logout">Log Out</a></li>
+					<%}
+		 				%>
+            	
+                
             </ul>
         </div>
     </nav>
@@ -49,6 +63,10 @@
 
     <h1>Register</h1>
     <form action="http://localhost:8080/MedXplore/register" method="POST">
+    	<div class="form-group">
+            <label for="exampleRoleName">Role: </label>
+            <input type="text" readonly class="form-control" id="exampleRoleName" name="roleName" value="User">
+        </div>
         <div class="form-group">
             <label for="exampleInputEmail1">User ID: </label>
             <input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User ID">

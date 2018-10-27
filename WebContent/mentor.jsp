@@ -28,12 +28,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+				<%
+  					session = request.getSession(false); 
+ 					if(session.getAttribute("userid")==null){%>
+				<li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
+					<%}
+ 					else{%>
+				<li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
+				<li><a class="nav-link active" href="logout">Log Out</a></li>
+					<%}
+		 				%>
+            	
+                
             </ul>
         </div>
     </nav>

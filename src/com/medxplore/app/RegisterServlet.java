@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
@@ -27,7 +28,8 @@ public class RegisterServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		logger.debug("Inside RegisterServlet doPost() method.");
 		PrintWriter out = response.getWriter();
-		String rolename = "User";
+		String rolename = request.getParameter("roleName");
+		logger.debug("Entered role is:  " + rolename);
 		String userid = request.getParameter("userid");
 		String emailid = request.getParameter("emailid");
 		String pwd = request.getParameter("pwd");
@@ -41,8 +43,20 @@ public class RegisterServlet extends HttpServlet {
 		
 		try {
 			String message = userDAO.doRegister(rolename,userid, pwd, emailid, firstName, lastName, address, contactNo);
-			out.println(message);
-			
+			//out.println(message);
+			if(message=="SUCCESS") {
+				HttpSession session = request.getSession();
+				session.setAttribute("userID",userid);
+				if(session.getAttribute("userid")==null) {
+					response.sendRedirect("registrationSuccess.jsp");
+				}
+				else {
+					response.sendRedirect("addAdminSuccess.jsp");
+				}
+			}
+			else {
+				response.sendRedirect("registrationError.jsp");
+			}
 			
 		} catch (ClassNotFoundException e) { 
 			e.printStackTrace();

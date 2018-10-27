@@ -4,14 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MedXplore: Login Error</title>
+<title>MedXplore: Registration Error</title>
 <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
+	
 	<div class="alert alert-danger" role="alert">
-		<h1>Error in Login! Please try again...</h1>
+		<h1>Error in Registration! Please try again...</h1>
 	</div>
-	<a href="http://localhost:8080/MedXplore/login.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Login</a>
+	<a href="http://localhost:8080/MedXplore/home.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Home</a>
 
 </body>
 </html>
