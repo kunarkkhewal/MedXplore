@@ -59,7 +59,7 @@
     </nav>
 
     <!-- home page where project related info is presented -->
-    <div class="jumbotron">
+    <div class="jumbotron container">
         <h1 class="display-4"><b>MedXplore</b></h1>
         <p class="lead">Prototype for B.Tech Minor Project</p>
         <hr class="my-4">
