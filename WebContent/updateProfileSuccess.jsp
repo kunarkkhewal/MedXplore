@@ -4,19 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MedXplore: Add Admin Success</title>
+<title>MedXplore: Update Profile Success</title>
 <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
 </head>
 <body>
 
 	<%
-	if(session.getAttribute("userID")==null){
-		response.sendRedirect("home.jsp");
+	if(session.getAttribute("userid")==null){
+		response.sendRedirect("updateProfile.jsp");
 	}
 	%>
 
 	<div class="alert alert-success" role="alert">
-		<h1>New admin '<%=session.getAttribute("userID")%>'is successfully registered!</h1>
+		<h1>Profile Updated!</h1>
 	</div>
 	<a href="http://localhost:8080/MedXplore/Dashboard.jsp" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Return to Dashboard</a>
 </body>

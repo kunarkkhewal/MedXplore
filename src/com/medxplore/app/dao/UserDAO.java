@@ -13,7 +13,8 @@ import com.medxplore.app.dto.RightDTO;
 import com.medxplore.app.dto.UserDTO;
 
 import static com.medxplore.utils.QueryConstants.*;
-
+import static com.medxplore.utils.CommonDAO.getConnection;
+import static com.medxplore.utils.QueryConstants.UPDATE_SQL;
 import static com.medxplore.utils.CommonDAO.*;
 
 public class UserDAO {
@@ -102,6 +103,8 @@ public class UserDAO {
 				if(userDTO == null) {
 					userDTO = new UserDTO();
 					logger.debug("UserDTO Object created in loop.");
+					userDTO.setUid(rs.getInt("UID"));
+					logger.debug("UserDTO Object setUid().");
 					userDTO.setUserid(rs.getString("USERID"));
 					logger.debug("UserDTO Object setUserId().");
 					userDTO.setPassword(rs.getString("PASSWORD"));
@@ -143,6 +146,49 @@ public class UserDAO {
 				conn.close();
 			}
 			logger.debug("Resources closed for LOGIN in UserDAO.");
+		}
+	}
+	
+	public String doUpdate(int uid, String userid, String newPassword, String emailid, String firstName, String lastName, String address, String contactNo) throws ClassNotFoundException, SQLException {
+		logger.debug("Inside UserDAO doUpdate() method.");
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		try {
+			conn = getConnection();
+			logger.debug("Connection created for UPDATE inside UserDAO..");
+			pstmt = conn.prepareStatement(UPDATE_SQL);
+			pstmt.setString(1, userid);
+			pstmt.setString(2, newPassword);
+			pstmt.setString(3, emailid);
+			pstmt.setString(4, firstName);
+			pstmt.setString(5, lastName);
+			pstmt.setString(6, address);
+			pstmt.setString(7, contactNo);
+			pstmt.setInt(8, uid);
+			
+			int noOfRecordsUpdated = pstmt.executeUpdate();
+			if(noOfRecordsUpdated>0) {
+				logger.debug("Record Updated. Profile Update Successful.");
+				return "SUCCESS";
+			}
+			else {
+				logger.debug("Record Not Updated. Profile Update Failed.");
+				return "ERROR";
+			}	
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+			return "ERROR";
+		}
+		finally {
+			if(pstmt!=null) {
+				pstmt.close();
+			}
+			if(conn!=null) {
+				conn.close();
+			}
+			logger.debug("Resources closed for UPDATE in UserDAO.");
 		}
 	}
 	

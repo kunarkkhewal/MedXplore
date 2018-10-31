@@ -3,6 +3,7 @@ package com.medxplore.app.dto;
 import java.util.ArrayList;
 
 public class UserDTO {
+	private int uid;
 	private String userid;
 	private String password;
 	private String emailId;
@@ -13,6 +14,12 @@ public class UserDTO {
 	private String roleName;
 	private ArrayList<RightDTO> rights;
 	
+	public int getUid() {
+		return uid;
+	}
+	public void setUid(int uid) {
+		this.uid = uid;
+	}
 	public String getUserid() {
 		return userid;
 	}
