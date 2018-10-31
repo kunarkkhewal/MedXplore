@@ -1,3 +1,4 @@
+<%@ page import="com.medxplore.app.dto.*" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="utf-8" autoFlush="true" buffer="18kb"
     isErrorPage="false" trimDirectiveWhitespaces="true"
@@ -11,57 +12,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/Stylesheet/Bootstrap.css" rel="stylesheet">
+
+    
+
+    <!-- Custom styles for this template -->
+    <link href="assets/Stylesheet/dashboard.css" rel="stylesheet">
     <script src="main.js"></script>
 </head>
 
 <body>
-
-    <!-- main navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="home.jsp">MedXplore</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <%
-  					session = request.getSession(false); 
- 					if(session.getAttribute("userid")==null){%>
-                <li class="nav-item active">
-                    <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="registration.jsp">Registration</a>
-                </li>
-                <%}
- 					else{%>
-                <li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
-                <li><a class="nav-link active" href="logout">Log Out</a></li>
-                <%}
-		 				%>
-
-
-            </ul>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.jsp">MedXplore</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="logout">Log Out</a></li>
+          </ul>
+<!--           <form class="navbar-form navbar-right"> -->
+<!--             <input type="text" class="form-control" placeholder="Search..."> -->
+<!--           </form> -->
+        </div>
+      </div>
     </nav>
-
-    <!-- Secondary Navigation Bar -->
-    <nav class="nav nav-pills nav-fill">
-        <a class="nav-item nav-link" href="home.jsp">Home</a>
-        <a class="nav-item nav-link" href="mentor.jsp">Mentor</a>
-        <a class="nav-item nav-link" href="developers.jsp">Developers</a>
-        <a class="nav-item nav-link" href="project.jsp">Project</a>
-        <a class="nav-item nav-link" href="contact.jsp">Contact Us</a>
-    </nav>
-
-    <!-- home page where project related info is presented -->
+ <%
+ System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
+ if(session.getAttribute("userid")==null){
+	 response.sendRedirect("home.jsp");
+ }
+          	
+          UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
+    		if(userDTO==null){
+    			response.sendRedirect("home.jsp");
+    		}
+          boolean isActive = true;
+          %>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+          <% 
+          if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
+          for(RightDTO rightDTO : userDTO.getRights()) { %>
+          <li class=""><a href="<%=rightDTO.getScreenName()%>"><%=rightDTO.getRightName() %></a></li>
+          <%
+          isActive = false;
+          }
+          }
+          %>
+           <!--  <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li> -->
+          </ul>
+         
+         
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          
+         <% if(userDTO!=null){ %>
+          
+         <!-- home page where project related info is presented -->
     <div class="jumbotron container">
         <h1 class="display-4"><b>MedBOOK</b></h1>
-        <p class="lead">Infomation of Medicines available on our platform</p>
+        <p class="lead">Information of Medicines available on our platform</p>
         <hr class="my-4">
         <p>
             <strong>You will Get information about</strong> <br>
@@ -761,15 +784,6 @@
         </p>
     </div>
 
-    <div class="jumbotron container">
-        <h1 class="display-4"><b>IBUGESIC 600mg</b></h1>
-        <p class="lead">Cipla</p>
-        <hr class="my-4">
-        <p>
-            cant find any
-        </p>
-    </div>
-
     <!-- Bacterial infection medicne starts -->
 
 
@@ -928,19 +942,21 @@
             cephalosporins, or if you have bleeding problems, intestine problems, and kidney disease. Also, tell your
             doctor if you are pregnant, plan to become pregnant, or are breast-feeding.
         </p>
+    </div> 
+          
+		<% } %>
+		</div>
+      </div>
     </div>
 
-    <!-- <div class="jumbotron container">
-        <h1 class="display-4"><b></b></h1>
-        <p class="lead"></p>
-        <hr class="my-4">
-        <p>
-            
-        </p>
-    </div>
-     -->
-
-    <script src="assets\javascript\bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="holder.min.js"></script>
 </body>
 
 </html>
