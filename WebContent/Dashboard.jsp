@@ -17,7 +17,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>MedXplore: Dashboard</title>
+    <title>Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/Stylesheet/Bootstrap.css" rel="stylesheet">

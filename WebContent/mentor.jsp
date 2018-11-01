@@ -28,23 +28,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-				<%
+                <%
   					session = request.getSession(false); 
  					if(session.getAttribute("userid")==null){%>
-				<li class="nav-item active">
+                <li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
-					<%}
+                <%}
  					else{%>
-				<li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
-				<li><a class="nav-link active" href="logout">Log Out</a></li>
-					<%}
+                <li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
+                <li><a class="nav-link active" href="logout">Log Out</a></li>
+                <%}
 		 				%>
-            	
-                
+
+
             </ul>
         </div>
     </nav>
@@ -58,17 +58,17 @@
         <a class="nav-item nav-link" href="contact.jsp">Contact Us</a>
     </nav>
 
-
-
-    <h1>Mentor</h1>
-    <div class="card" style="width: 25%;">
-        <img class="card-img-top" src="assets/images/Mentor_Snap.jpg" alt="Card image cap">
+    <div class="card text-center container" style="max-width:50%; margin-top: 1%">
+        <div class="card-header">
+            <h3>Mentor</h3>
+        </div>
+        <img class="card-img-top" src="assets/images/Mentor_Snap.jpg" alt="Card image cap" style="width:40%; align-self: center; margin-top:2%;" >
         <div class="card-body">
+            <h5 class="card-title">Mr. C.M. Sharma</h5><br>
             <p class="card-text">
-            	<h3>Mr. C.M. Sharma</h3><br>
-            	<h5>Assistant Professor,</h5>
-            	<h5>Department of Information Technology, </h5>
-            	<h5>BPIT, Delhi</h5><br>
+                <h5>Assistant Professor,</h5>
+                <h5>Department of Information Technology, </h5>
+                <h5>BPIT, Delhi</h5><br>
             </p>
         </div>
     </div>

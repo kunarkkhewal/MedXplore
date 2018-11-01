@@ -27,23 +27,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-				<%
+                <%
   					session = request.getSession(false); 
  					if(session.getAttribute("userid")==null){%>
-				<li class="nav-item active">
+                <li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
-					<%}
+                <%}
  					else{%>
-				<li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
-				<li><a class="nav-link active" href="logout">Log Out</a></li>
-					<%}
+                <li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
+                <li><a class="nav-link active" href="logout">Log Out</a></li>
+                <%}
 		 				%>
-            	
-                
+
+
             </ul>
         </div>
     </nav>
@@ -57,11 +57,10 @@
         <a class="nav-item nav-link" href="contact.jsp">Contact Us</a>
     </nav>
 
-    <h1>Contact Us</h1>
-    <table class="table table-striped">
-        <thead>
+    <h1 style="text-align: center; margin-top: 25;">Contact Us</h1>
+    <table class="table table-striped table-bordered text-center">
+        <thead class="thead-dark"> 
             <tr>
-                <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">Mobile</th>
                 <th scope="col">Email</th>
@@ -69,19 +68,16 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
                 <td>Akshita Aggarwal</td>
                 <td>9811454020</td>
                 <td>akshagg3@gmail.com </td>
             </tr>
             <tr>
-                <th scope="row">2</th>
                 <td>Kunark Khewal</td>
                 <td>9818371337</td>
                 <td>kunark.khewal88@gmail.com</td>
             </tr>
             <tr>
-                <th scope="row">3</th>
                 <td>Rohit Meghwal</td>
                 <td>9560394272</td>
                 <td>yuvrohit1996@gmail.com</td>

@@ -29,23 +29,23 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-				<%
+                <%
   					session = request.getSession(false); 
  					if(session.getAttribute("userid")==null){%>
-				<li class="nav-item active">
+                <li class="nav-item active">
                     <a class="nav-link" href="login.jsp">Login <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="registration.jsp">Registration</a>
                 </li>
-					<%}
+                <%}
  					else{%>
-				<li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
-				<li><a class="nav-link active" href="logout">Log Out</a></li>
-					<%}
+                <li><a class="nav-link active" href="http://localhost:8080/MedXplore/Dashboard.jsp">Dashboard</a></li>
+                <li><a class="nav-link active" href="logout">Log Out</a></li>
+                <%}
 		 				%>
-            	
-                
+
+
             </ul>
         </div>
     </nav>
@@ -61,42 +61,48 @@
 
 
 
-    <h1>Developers</h1>
-    <div class="card-deck" style="width: 50%;">
-        <div class="card" style="width: 25%;">
-            <img class="card-img-top" src="assets/images/Dev_1.jpeg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Akshita Aggarwal</h5>
-                <p class="card-text">
-                    Content & Design Developer <br>
-                    IT-7th Sem <br>
-                    00220803115 <br>
-                </p>
+    <h1 style="text-align: center;">Developers</h1>
+    
+    <div class="row text-center container mx-auto" style="max-width: 80%; align-items: center;">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top" src="assets/images/Dev_1.jpeg" alt="Card image cap">
+                    <h5 class="card-title">Akshita Aggarwal</h5>
+                    <p class="card-text">
+                        Content & Design Developer <br>
+                        IT-7th Sem <br>
+                        00220803115 <br></p>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 25%;">
-            <img class="card-img-top" src="assets/images/Dev_2.jpg" alt="Card image cap" style="size: 120px 120px" >
-            <div class="card-body">
-                <h5 class="card-title">Kunark Khewal</h5>
-                <p class="card-text">
-                    Front-End Developer <br>
-                    IT-7th Sem <br>
-                    01520803115 <br>
-                </p>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top" src="assets/images/Dev_2.jpg" alt="Card image cap" style="size: 120px 120px">
+                    <h5 class="card-title">Kunark Khewal</h5>
+                    <p class="card-text">
+                        Front-End Developer <br>
+                        IT-7th Sem <br>
+                        01520803115 <br></p>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 25%;">
-            <img class="card-img-top" src="assets/images/Dev_3.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Rohit Meghwal</h5>
-                <p class="card-text">
-                    Back-End Developer <br>
-                    IT-7th Sem <br>
-                    02720803115 <br>
-                </p>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top" src="assets/images/Dev_3.jpg" alt="Card image cap">
+                    <h5 class="card-title">Rohit Meghwal</h5>
+                    <p class="card-text">
+                        Back-End Developer <br>
+                        IT-7th Sem <br>
+                        02720803115 <br>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="assets\javascript\bootstrap.min.js"></script>
 </body>
 
