@@ -1,3 +1,4 @@
+<%@page import="java.util.Iterator"%>
 <%@page import="com.medxplore.app.dto.RightDTO"%>
 <%@page import="com.medxplore.app.dto.UserDTO"%>
 <%@page import="java.util.ArrayList"%>
@@ -73,6 +74,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
+          <li class=""><a href="Dashboard.jsp">My Dashboard</a></li>
           <% 
           if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
           for(RightDTO rightDTO : userDTO.getRights()) { %>
@@ -91,18 +93,21 @@
          
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-        
+        <%Iterator itr = searchDTO.getSalts().iterator(); %>
         <h1>Search Medicine Result</h1>
         <h3>Medicine: <%=searchDTO.getMedname()%>	(<%=searchDTO.getPackSize()%>'s)</h3>
-		<h3>Salts:	<%for(int i = 0 ; i < searchDTO.getSalts().size() ; i++){%>
-			<%=searchDTO.getSalts().get(i) + " "%>
+        <h3>Salts:	<%while(itr.hasNext()){%>
+			<%=(itr.next()) + (itr.hasNext()?", ":" ")%>
 			<%} %></h3>
+<%-- 		<h3>Salts:	<%for(int i = 0 ; i < searchDTO.getSalts().size() ; i++){%> --%>
+<%-- 			<%=searchDTO.getSalts().get(i) + " "%> --%>
+<%-- 			<%} %></h3> --%>
 		<h3>Price: ₹ <%=searchDTO.getPrice() %>	</h3>
 
 		<%
 		for(StoreDTO storeDTO : searchDTO.getStores()){ %>
 		<ul>
-			<li><%=storeDTO.getStoreName() %>
+			<li><a href="<%=storeDTO.getStoreMapLink()%>" target="_blank"><%=storeDTO.getStoreName() %></a>
 			<br/>
 			<%=storeDTO.getStoreAddress() %>
 			<br/>
@@ -117,9 +122,7 @@
 		<%
 		for(MedAltDTO medAltDTO : medAltList){ %>
 		<ul>
-			<li><%=medAltDTO.getMedname() %>
-			<br/>
-			<%=medAltDTO.getPackSize() %>
+			<li><%=medAltDTO.getMedname() %>	(<%=medAltDTO.getPackSize()%>'s)
 			<br/>
 			₹ <%=medAltDTO.getPrice() %>
 			</li>

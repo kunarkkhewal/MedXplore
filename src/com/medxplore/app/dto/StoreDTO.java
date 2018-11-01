@@ -4,6 +4,13 @@ public class StoreDTO {
 	private String storeName;
 	private String storeAddress;
 	private String storeContactNo;
+	private String storeMapLink;
+	public String getStoreMapLink() {
+		return storeMapLink;
+	}
+	public void setStoreMapLink(String storeMapLink) {
+		this.storeMapLink = storeMapLink;
+	}
 	public String getStoreName() {
 		return storeName;
 	}

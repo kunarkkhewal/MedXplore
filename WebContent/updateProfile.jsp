@@ -54,6 +54,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
+          <li class=""><a href="Dashboard.jsp">My Dashboard</a></li>
           <% 
           if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
           for(RightDTO rightDTO : userDTO.getRights()) { %>

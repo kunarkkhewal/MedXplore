@@ -1,3 +1,4 @@
+<%@ page import="com.medxplore.app.dto.*" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="utf-8" autoFlush="true" buffer="18kb"
     isErrorPage="false" trimDirectiveWhitespaces="true"
@@ -7,98 +8,101 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets\Stylesheet\bootstrap.min.css" />
-    <script src="main.js"></script>
-</head>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
 
-<body>
+    <title>MedXplore: Dashboard</title>
 
-    <div class="container">
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-text">
-                Fill Information To Add Medicine
-            </span>
-        </nav>
-        
-        <form>
-            <!-- Name and Manufacturer of medicine -->
-            <div class="row">
-                <div class="col">
-                    <label for="medicine">Name of Medicine</label>
-                    <input name="medicine" type="text" class="form-control" placeholder="Name of Medicine">
-                </div>
-                <div class="col">
-                    <label for="mfg">Manufacturer</label>
-                    <input name="mfg" type="text" class="form-control" placeholder="Name of Manufacturer">
-                </div>
-            </div>
-            <br>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/Stylesheet/Bootstrap.css" rel="stylesheet">
 
-            <!-- salt 1 and composition -->
-            <div class="row">
-                <div class="col">
-                    <label for="salt1">Salt 1</label>
-                    <input name="salt1" type="text" class="form-control" placeholder="Name of Salt">
-                </div>
-                <div class="col">
-                    <label for="com1">Composition</label>
-                    <input name="com1" type="text" class="form-control" placeholder="Composition %">
-                </div>
-            </div>
-            <br>
+    
 
-            <!-- salt 2 and composition -->
-            <div class="row">
-                <div class="col">
-                    <label for="salt2">Salt 2</label>
-                    <input name="salt2" type="text" class="form-control" placeholder="Name of Salt">
-                </div>
-                <div class="col">
-                    <label for="com2">Composition</label>
-                    <input name="com2" type="text" class="form-control" placeholder="Composition %">
-                </div>
-            </div>
-            <br>
+    <!-- Custom styles for this template -->
+    <link href="assets/Stylesheet/dashboard.css" rel="stylesheet">
 
-            <!-- salt 2 and composition -->
-            <div class="row">
-                <div class="col">
-                    <label for="salt3">Salt 3</label>
-                    <input name="salt3" type="text" class="form-control" placeholder="Name of Salt">
-                </div>
-                <div class="col">
-                    <label for="com3">Composition</label>
-                    <input name="com3" type="text" class="form-control" placeholder="Composition %">
-                </div>
-            </div>
-            <br>
+    
+  </head>
 
-            <!-- capacity -->
-            <div class="row">
+  <body>
 
-                <div class="col">
-                    <label for="cap">Capacity of Medicine(in mg)</label>
-                    <input name="cap" type="text" class="form-control" placeholder="Capacity">
-                </div>
-                <div class="col">
-                    <label for="pills">No. of pills per sachet</label>
-                    <input name="pills" type="text" class="form-control" placeholder="No. of Pills">
-                </div>
-            </div>
-            <br>
-
-
-            <button type="submit" class="btn btn-primary">Add Medicine</button>
-        </form>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.jsp">MedXplore</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="logout">Log Out</a></li>
+          </ul>
+<!--           <form class="navbar-form navbar-right"> -->
+<!--             <input type="text" class="form-control" placeholder="Search..."> -->
+<!--           </form> -->
+        </div>
+      </div>
+    </nav>
+ <%
+ System.out.println("Inside DashBoard Page "+session.getAttribute("userid"));
+ if(session.getAttribute("userid")==null){
+	 response.sendRedirect("home.jsp");
+ }
+          	
+          UserDTO userDTO = (UserDTO)session.getAttribute("userdata");
+    		if(userDTO==null){
+    			response.sendRedirect("home.jsp");
+    		}
+          boolean isActive = true;
+          %>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+          <li class=""><a href="Dashboard.jsp">My Dashboard</a></li>
+          <% 
+          if(userDTO!=null && userDTO.getRights()!=null && userDTO.getRights().size()>0){
+          for(RightDTO rightDTO : userDTO.getRights()) { %>
+          <li class=""><a href="<%=rightDTO.getScreenName()%>"><%=rightDTO.getRightName() %></a></li>
+          <%
+          isActive = false;
+          }
+          }
+          %>
+           <!--  <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li> -->
+          </ul>
+         
+         
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          
+         <% if(userDTO!=null){ %>
+          <h1 class="page-header">WORK IN PROGRESS !</h1>
+		<% } %>
+		</div>
+      </div>
     </div>
 
-
-    <script src="assets\javascript\bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/javascript/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="holder.min.js"></script>
 </body>
 
 </html>

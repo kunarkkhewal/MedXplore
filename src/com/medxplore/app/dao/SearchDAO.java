@@ -66,6 +66,7 @@ public class SearchDAO {
 				store.setStoreName(rs1.getString("sname"));
 				store.setStoreAddress(rs1.getString("saddress"));
 				store.setStoreContactNo(rs1.getString("scontactno"));
+				store.setStoreMapLink(rs1.getString("smaplink"));
 				stores.add(store);
 				logger.debug("Store added to SearchDTO object AList<>.");
 			}
