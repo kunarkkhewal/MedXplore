@@ -79,7 +79,7 @@
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 <h1 style="text-align: center;">Admin Registration</h1>
-                <div class="container" style="width:70%; border: 1px solid rgb(243, 245, 245); border-radius:2%; margin-bottom: 2%; padding: 1%;>
+                <div class="container" style="width:70%; border: 1px solid rgb(243, 245, 245); border-radius:2%; margin-bottom: 2%; padding: 1%;">
                     <form action="http://localhost:8080/MedXplore/register" method="POST">
                         <div class="form-group">
                             <label for="exampleRoleName">Role: </label>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address: </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            <input type="email" class="form-control" id="exampleInputEmail1" pattern="([a-z|0-9])\w+[@]\w+[.]\w{2,3}" aria-describedby="emailHelp"
                                 name="emailid" placeholder="Enter email">
                         </div>
                         <div class="form-group">
@@ -99,7 +99,7 @@
                             <input type="password" class="form-control" id="exampleInputPassword1" name="pwd"
                                 placeholder="Password">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" style="display: none;">
                             <label for="exampleInputPassword1">Confirm Password: </label>
                             <input type="password" class="form-control" id="exampleInputPassword1" name="cpwd"
                                 placeholder="Password">
@@ -107,20 +107,20 @@
                         <div class="form-row">
                             <div class="col">
                                 <label for="firstname">First Name: </label>
-                                <input name="firstname" type="text" class="form-control" placeholder="First name">
+                                <input name="firstname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="First name">
                             </div>
                             <div class="col">
                                 <label for="lastname">Last Name: </label>
-                                <input name="lastname" type="text" class="form-control" placeholder="Last name">
+                                <input name="lastname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="Last name">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address: </label>
-                            <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Address">
+                            <input type="text" class="form-control" id="inputAddress" pattern="([a-z|A-Z])\w+" name="address" placeholder="Address">
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Contact: </label>
-                            <input type="text" class="form-control" id="inputAddress" name="contactno" placeholder="Contact No">
+                            <input type="text" class="form-control" id="inputAddress" name="contactno" pattern="([0-9]){10}" placeholder="Contact No">
                         </div>
                         <button type="reset" class="btn">Reset</button>
                         <button type="submit" class="btn btn-primary">Submit</button>

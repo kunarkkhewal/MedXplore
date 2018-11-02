@@ -87,7 +87,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address: </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            <input type="email" class="form-control" id="exampleInputEmail1" pattern="([a-z|0-9])\w+[@]\w+[.]\w{2,3}" aria-describedby="emailHelp"
                                 name="emailid" placeholder="<%=userDTO.getEmailId()==null?"":userDTO.getEmailId()%>">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
@@ -100,20 +100,20 @@
                         <div class="form-row">
                             <div class="col">
                                 <label for="firstname">First Name: </label>
-                                <input name="firstname" type="text" class="form-control" placeholder="<%=userDTO.getFirstName()==null?"":userDTO.getFirstName()%>">
+                                <input name="firstname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="<%=userDTO.getFirstName()==null?"":userDTO.getFirstName()%>">
                             </div>
                             <div class="col">
                                 <label for="lastname">Last Name: </label>
-                                <input name="lastname" type="text" class="form-control" placeholder="<%=userDTO.getLastName()==null?"":userDTO.getLastName()%>">
+                                <input name="lastname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="<%=userDTO.getLastName()==null?"":userDTO.getLastName()%>">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address: </label>
-                            <input type="text" class="form-control" id="inputAddress" name="address" placeholder="<%=userDTO.getAddress()==null?"":userDTO.getAddress()%>">
+                            <input type="text" class="form-control" id="inputAddress" name="address" pattern="([a-z|A-Z])\w+" placeholder="<%=userDTO.getAddress()==null?"":userDTO.getAddress()%>">
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Contact: </label>
-                            <input type="text" class="form-control" id="inputAddress" name="contactno" placeholder="<%=userDTO.getContactNo()==null?"":userDTO.getContactNo()%>">
+                            <input type="text" class="form-control" id="inputAddress" name="contactno" pattern="([0-9]){10}" placeholder="<%=userDTO.getContactNo()==null?"":userDTO.getContactNo()%>">
                         </div>
                         <button type="reset" class="btn">Reset</button>
                         <button type="submit" class="btn btn-primary">Submit</button>

@@ -1,14 +1,13 @@
-<%@page import="com.medxplore.app.dto.RightDTO"%>
-<%@page import="com.medxplore.app.dto.UserDTO"%>
+<%@ page import="com.medxplore.app.dto.*" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" autoFlush="true" buffer="18kb" 
-    errorPage="LoginError.jsp" isErrorPage="false" import="java.util.Date"
-    trimDirectiveWhitespaces="true" 
-     %>
+    pageEncoding="utf-8" autoFlush="true" buffer="18kb"
+    isErrorPage="false" trimDirectiveWhitespaces="true"
+%>
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +16,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Dashboard</title>
+    <title>MedXplore: Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/Stylesheet/Bootstrap.css" rel="stylesheet">
@@ -65,7 +64,7 @@
     		}
           boolean isActive = true;
           %>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
@@ -90,23 +89,7 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           
          <% if(userDTO!=null){ %>
-<%--           <h1 class="page-header">Welcome <%=session.getAttribute("userid") %>, You are <%=userDTO.getRoleName() %></h1> --%>
-			<div class="jumbotron jumbotron-fluid">
-  				<div class="container">
-            <h2 class="display-2" style="text-align:center;"><u>Login Information</u></h2><br/>
-    				<p class="lead">UserID		:		<%=userDTO.getUserid() %></p><br/>
-    				<p class="lead">EmailID		:		<%=userDTO.getEmailId() %></p><br/>
-  				</div>
-			</div>
-			<br/>
-			<div class="jumbotron jumbotron-fluid">
-  				<div class="container">
-            <h2 class="display-2" style="text-align:center;"><u>Personal Information</u></h2><br/>
-    				<p class="lead">First Name	:		<span><%=userDTO.getFirstName() %></span> <span><%= userDTO.getLastName()%></span></p><br/>
-    				<p class="lead">Address		:		<%=userDTO.getAddress() %></p><br/>
-    				<p class="lead">Contact No.	:		<%=userDTO.getContactNo() %></p><br/>
-  				</div>
-			</div>
+          <h1 class="page-header">WORK IN PROGRESS !</h1>
 		<% } %>
 		</div>
       </div>
@@ -120,6 +103,6 @@
     <script src="assets/javascript/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="holder.min.js"></script>
-    
-  </body>
+</body>
+
 </html>

@@ -72,39 +72,39 @@
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">User ID: </label>
-                <input type="text" class="form-control" id="exampleInputEmail1" name="userid" placeholder="Enter User ID" required>
+                <input type="text" class="form-control" id="userid" name="userid" placeholder="Enter User ID"  required>
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address: </label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="emailid"
-                    placeholder="Enter email" required>
+                    placeholder="Enter email" pattern="([a-z|0-9])\w+[@]\w+[.]\w{2,3}" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password: </label>
-                <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password" required>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password" required >
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
                 <label for="exampleInputPassword1">Confirm Password: </label>
                 <input type="password" class="form-control" id="exampleInputPassword1" name="cpwd" placeholder="Password" required>
             </div>
             <div class="form-row">
                 <div class="col">
                     <label for="firstname">First Name: </label>
-                    <input name="firstname" type="text" class="form-control" placeholder="First name" required>
+                    <input name="firstname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="First name" required>
                 </div>
                 <div class="col">
                     <label for="lastname">Last Name: </label>
-                    <input name="lastname" type="text" class="form-control" placeholder="Last name">
+                    <input name="lastname" type="text" class="form-control" pattern="([a-z|A-Z])\w+" placeholder="Last name">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputAddress">Address: </label>
-                <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Address" required>
+                <input type="text" class="form-control" id="inputAddress" name="address" pattern="([a-z|A-Z])\w+" placeholder="Address" required>
             </div>
             <div class="form-group">
-                <label for="inputAddress">Contact: </label>
-                <input type="text" class="form-control" id="inputAddress" name="contactno" placeholder="Contact No" required>
+                <label for="inputAddress">Contact No: </label>
+                <input type="text" class="form-control" id="inputAddress" name="contactno" placeholder="Contact No" pattern="([0-9]){10}" required>
             </div>
             <button type="reset" class="btn">Reset</button>
             <button type="submit" class="btn btn-primary">Submit</button>
