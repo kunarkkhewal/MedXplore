@@ -1,7 +1,6 @@
 package com.medxplore.app;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
@@ -27,7 +26,6 @@ public class RegisterServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		logger.debug("Inside RegisterServlet doPost() method.");
-		PrintWriter out = response.getWriter();
 		String rolename = request.getParameter("roleName");
 		logger.debug("Entered role is:  " + rolename);
 		String userid = request.getParameter("userid");
@@ -62,9 +60,6 @@ public class RegisterServlet extends HttpServlet {
 			e.printStackTrace();
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-		finally {
-			out.close();
 		}
 	}
 
